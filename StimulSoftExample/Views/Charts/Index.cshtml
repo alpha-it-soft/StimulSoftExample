@@ -1,0 +1,103 @@
+﻿@using Stimulsoft.Report.Mvc;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Balkendiagramm</title>
+</head>
+<body>
+    @Html.Stimulsoft().StiMvcViewer(new StiMvcViewerOptions()
+{
+        Actions =
+{
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent",
+
+    },
+    Server =
+    {
+            CacheMode = Stimulsoft.Report.Web.StiServerCacheMode.ObjectSession,
+            RequestTimeout=240,
+    },
+    Toolbar = new StiMvcViewerOptions.ToolbarOptions
+    {
+        ShowOpenButton = false,
+        ShowPrintButton = true,
+        ViewMode = Stimulsoft.Report.Web.StiWebViewMode.Continuous,
+        ShowViewModeButton = true,
+        ShowFullScreenButton = false,
+
+    },
+    Appearance = new StiMvcViewerOptions.AppearanceOptions
+    {
+        FullScreenMode = true,
+        ImagesQuality = Stimulsoft.Report.Web.StiImagesQuality.High,
+        BackgroundColor = System.Drawing.Color.White,
+        PageBorderColor = System.Drawing.Color.Gray,
+        ShowPageShadow = true
+    },
+
+});
+
+    <script src="/Scripts/jquery-3.6.3.js"></script>
+    <script type="text/javascript">
+            window.lastScrollTop = 0;
+
+            function FunctionPrevPage() {
+                //console.log(`up`);
+               // console.log(jsMvcViewer.viewerEvents);
+                jsMvcViewer.postAction("PrevPage");
+                    //jsMvcViewer.viewerEvents.jsObject.postAction("PrevPage");
+            }
+
+            function FunctionNextPage() {
+                //console.log(`down`);
+                //console.log(jsMvcViewer);
+                jsMvcViewer.postAction("NextPage");
+                    //jsMvcViewer.jsObject.postAction("NextPage");
+            }
+
+            window.addEventListener("keydown", logKey);
+            function logKey(e) {
+                if (e.code == 'PageUp' | e.code == 'ArrowUp') {
+                    FunctionPrevPage();
+                }
+                else if (e.code == 'PageDown' | e.code == 'ArrowDown') {
+                    FunctionNextPage();
+                }
+            }
+
+            $(window).scroll(function (event) {
+                var st = $(this).scrollTop();
+                if (st > window.lastScrollTop) {
+                    console.log("down");
+                    FunctionNextPage();
+                }
+                else if (st == window.lastScrollTop) {
+                    //do nothing
+                    //In IE this is an important condition because there seems to be some instances where the last scrollTop is equal to the new one
+                }
+                else {
+                    console.log("up");
+                    FunctionPrevPage();
+                }
+                window.lastScrollTop = st;
+            });
+
+            document.addEventListener("click", (event) => {
+                if (event.ctrlKey) {
+                    FunctionPrevPage();
+                }
+                if (event.altKey) {
+                    FunctionNextPage();
+                }
+            });
+
+    </script>
+</body>
+</html>
