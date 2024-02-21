@@ -112,6 +112,7 @@
     <ForceDelete>Ștergere Forțată</ForceDelete>
     <Help>Ajutor</Help>
     <Install>Instalare</Install>
+    <InvertAll>Inversare tot</InvertAll>
     <LessOptions>Mai puține opțiuni</LessOptions>
     <LoadDataSet>Incarcă DataSet (*.data)</LoadDataSet>
     <More>Mai mult</More>
@@ -124,6 +125,7 @@
     <Ok>&amp;OK</Ok>
     <Open>Deschide</Open>
     <OpenContainingFolder>Deschideți folderul care conține</OpenContainingFolder>
+    <OpenInSafeMode>Deschidere în modul sigur</OpenInSafeMode>
     <Print>Imprimare</Print>
     <Publish>Publică</Publish>
     <QuickPrint>Imprimare rapida</QuickPrint>
@@ -142,6 +144,7 @@
     <Submit>Trimite</Submit>
     <SwitchTo>Schimbă cu {0}</SwitchTo>
     <Test>Test</Test>
+    <TryToReconnect>Încercați reconectarea</TryToReconnect>
     <Up>Sus</Up>
     <Upgrade>Actualizare</Upgrade>
     <UpgradeNow>Actualizare Acum</UpgradeNow>
@@ -401,6 +404,7 @@
     <DashboardWindowTitleNew>Panou control nou</DashboardWindowTitleNew>
     <DeleteFile>Şterge Fişier</DeleteFile>
     <DoNotAskMe>Nu mă întreba iar</DoNotAskMe>
+    <EnterUserNameToLogin>Introduceți numele de utilizator (e-mail) pentru a vă conecta.</EnterUserNameToLogin>
     <ExecutionError>Eroare de execuție</ExecutionError>
     <ExpiredDate>Data expirării</ExpiredDate>
     <FileStorageWindowTitleEdit>Editare Fișier Stocare</FileStorageWindowTitleEdit>
@@ -479,6 +483,7 @@
     <RequestChangesWhenSavingToCloud>Solicitați modificări când salvați în cloud</RequestChangesWhenSavingToCloud>
     <RibbonButtonAddRole>Adăugare Rol</RibbonButtonAddRole>
     <RibbonButtonAddUser>Adăugare Utilizator</RibbonButtonAddUser>
+    <RibbonButtonAddUserParameter>Adăugați parametru utilizator</RibbonButtonAddUserParameter>
     <RibbonButtonAddWorkspace>Adăugare Spațiu de Lucru</RibbonButtonAddWorkspace>
     <RibbonButtonFolder>Folder</RibbonButtonFolder>
     <RibbonTabUsers>Utilizatori</RibbonTabUsers>
@@ -493,6 +498,7 @@
     <ShareWindowTitleNew>Partajare</ShareWindowTitleNew>
     <ShowAllFiles>Arată Toate Fişierele</ShowAllFiles>
     <ShowNotificationMessages>Afișare mesaje de notificare</ShowNotificationMessages>
+    <Submissions>Trimiterile</Submissions>
     <Subscriptions>Abonamente</Subscriptions>
     <TabItemEmbedCode>Integrare Cod</TabItemEmbedCode>
     <TabItemQRCode>Cod QR</TabItemQRCode>
@@ -569,6 +575,8 @@
     <WindowTitleSignUp>Înscriere</WindowTitleSignUp>
     <WindowTitleUserEdit>Editare Utilizator</WindowTitleUserEdit>
     <WindowTitleUserNew>Utilizator Nou</WindowTitleUserNew>
+    <WindowTitleUserParameterEdit>Editați parametru utilizator</WindowTitleUserParameterEdit>
+    <WindowTitleUserParameterNew>Parametru utilizator nou</WindowTitleUserParameterNew>
     <WindowTitleWorkspaceEdit>Editare Spațiu de lucru</WindowTitleWorkspaceEdit>
     <WindowTitleWorkspaceNew>Spațiu de lucru Nou</WindowTitleWorkspaceNew>
     <WizardBlankReportDescription>Creare raport gol</WizardBlankReportDescription>
@@ -583,6 +591,7 @@
     <WizardTeamShare>Acces echipă</WizardTeamShare>
     <WizardTeamShareDescription>Acces extern numai pentru utilizatorii unui spațiu de lucru.</WizardTeamShareDescription>
     <WizardXmlDescription>Creare raport cu date XML.</WizardXmlDescription>
+    <YourPlan>Planul dumneavoastră</YourPlan>
   </Cloud>
   <Components>
     <StiBarCode>Cod de bare</StiBarCode>
@@ -628,6 +637,8 @@
     <StiListBox>Control Listă</StiListBox>
     <StiMap>Hartă</StiMap>
     <StiMathFormula>Formula matematică</StiMathFormula>
+    <StiMultipleSelection>Selectie Multiplă</StiMultipleSelection>
+    <StiNumberBox>Caseta numere</StiNumberBox>
     <StiOnlineMap>Hartă online</StiOnlineMap>
     <StiOverlayBand>Acoperire</StiOverlayBand>
     <StiPage>Pagină</StiPage>
@@ -635,6 +646,7 @@
     <StiPageHeaderBand>Antet pagină</StiPageHeaderBand>
     <StiPanel>Panel</StiPanel>
     <StiPdfDigitalSignature>Semnătura digitală PDF</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Element PDF</StiPdfDigitalSignatureElement>
     <StiPivot>Pivot</StiPivot>
     <StiPivotColumn>Coloană Pivot</StiPivotColumn>
     <StiPivotRow>Rând Pivot</StiPivotRow>
@@ -651,6 +663,7 @@
     <StiScreen>Ecran</StiScreen>
     <StiShape>Formă</StiShape>
     <StiSignature>Semnătură</StiSignature>
+    <StiSingleSelection>Selectie unică</StiSingleSelection>
     <StiSparkline>Sparkline</StiSparkline>
     <StiSubReport>Sub-raport</StiSubReport>
     <StiSystemText>Text de sistem</StiSystemText>
@@ -898,6 +911,7 @@
     <StiPanelControl>Panou</StiPanelControl>
     <StiPictureBoxControl>Imagine</StiPictureBoxControl>
     <StiRadioButtonControl>Buton opţiuni</StiRadioButtonControl>
+    <StiRadioControl>Radio</StiRadioControl>
     <StiReportControl>Raport</StiReportControl>
     <StiRichTextBoxControl>Control tip Rich Text</StiRichTextBoxControl>
     <StiTextBoxControl>Căsuţă text</StiTextBoxControl>
@@ -1115,6 +1129,7 @@
     <BmpFiles>Imagine BMP (*.bmp)|*.bmp</BmpFiles>
     <BusinessIntelligence>Fișier Business Intelligence (*.sbi)|*.sbi</BusinessIntelligence>
     <CalcFiles>Fişiere OpenDocument Calc (*.ods)|*.ods</CalcFiles>
+    <ConditionsFiles>Condiții Stimulsoft (*.stc)|*.stc</ConditionsFiles>
     <CsvFiles>Fişiere CSV (*.csv)|*.csv</CsvFiles>
     <DataSetXmlData>Date XML DataSet (*.xml)|*.xml</DataSetXmlData>
     <DataSetXmlSchema>Schemă XML DataSet (*.xsd)|*.xsd</DataSetXmlSchema>
@@ -1128,6 +1143,7 @@
     <EncryptedReportFiles>Fişiere tip raport criptat (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Fişiere Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelAllFiles>Fișiere Microsoft Excel (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
+    <ExcelCsvAllFiles>Fișiere Microsoft Excel(*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv</ExcelCsvAllFiles>
     <ExcelFiles>Fişiere Microsoft Excel (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Fişiere Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>Fişiere EXE (*.exe)|*.exe</ExeFiles>
@@ -1173,18 +1189,19 @@
     <custom04>F</custom04>
     <custom05>yy/MM/dd</custom05>
     <custom06>yyyy/MM/dd</custom06>
-    <custom07>G</custom07>
-    <custom08>$0.00</custom08>
-    <custom09>$0</custom09>
-    <custom10>c</custom10>
-    <custom11>c1</custom11>
-    <custom12>c2</custom12>
-    <custom13>#.00</custom13>
-    <custom14>#,#</custom14>
-    <custom15>n</custom15>
-    <custom16>n1</custom16>
-    <custom17>n2</custom17>
-    <custom18>(###) ### - ####</custom18>
+    <custom07>[green]+0.00;[red]-0.00;[blue](0)</custom07>
+    <custom08>G</custom08>
+    <custom09>$0.00</custom09>
+    <custom10>$0</custom10>
+    <custom11>c</custom11>
+    <custom12>c1</custom12>
+    <custom13>c2</custom13>
+    <custom14>#.00</custom14>
+    <custom15>#,#</custom15>
+    <custom16>n</custom16>
+    <custom17>n1</custom17>
+    <custom18>n2</custom18>
+    <custom19>(###) ### - ####</custom19>
     <date01>*d</date01>
     <date02>*D</date02>
     <date03>M.dd</date03>
@@ -1565,6 +1582,7 @@
     <ShowDialogForms>Afișare formulare de dialog</ShowDialogForms>
     <ShowDimensionLines>Arată linii dimensiune</ShowDimensionLines>
     <ShowOldGaugeEditor>Afișare Editor Vechi</ShowOldGaugeEditor>
+    <ShowSmartGuides>Afișare ghiduri inteligente</ShowSmartGuides>
     <StartScreen>Ecran de Pornire</StartScreen>
     <title>Opţiuni</title>
     <UseComponentColor>Foloseşte culoarea componentei la umplere</UseComponentColor>
@@ -1804,6 +1822,7 @@
     <TickCustomValue>Valoare personalizată grosime</TickCustomValue>
   </Gauge>
   <Gui>
+    <AccentColor>Culoare accent</AccentColor>
     <barname_cancel>Renunţă</barname_cancel>
     <barname_caption>Toolbar nou</barname_caption>
     <barname_msginvalidname>Numele Toolbar-ului nu poate fi gol.</barname_msginvalidname>
@@ -1915,6 +1934,7 @@
     <StiCrossTab>Componenta cross-tab este folosită pentru structurarea datelor sub forma unui tabel.</StiCrossTab>
     <StiDataBand>Banda de date este conectată la sursa de date şi este afişată de atâtea ori câte înregistrari sunt în sursa de date.</StiDataBand>
     <StiDatePickerElement>Elementul este utilizat pentru a selecta data și ora.</StiDatePickerElement>
+    <StiElectronicSignature>Această componentă este utilizată pentru a adăuga o semnătură grafică, o imagine, inițiale și text.</StiElectronicSignature>
     <StiEmptyBand>Această bandă este folosită pentru umplerea spaţiului liber din subsolul unei pagini. Aceasta bandă umple spaţiul liber pe fiecare pagină a raportului.</StiEmptyBand>
     <StiFilterCategory>Un grup de elemente utilizate pentru selectarea și filtrarea valorilor.</StiFilterCategory>
     <StiFooterBand>Această bandă este folosită pentru afişarea rezumatului din banda de date.Aceasta se găseşte sub banda de date şi este afişată o singură dată dupa ce sunt afişate toate înregistrarile din banda de date.</StiFooterBand>
@@ -1933,12 +1953,15 @@
     <StiMapCategory>Grup de elemente pentru lucrul cu hărți și date.</StiMapCategory>
     <StiMapElement>Acest element este utilizat pentru afișarea datelor direcționate din punct de vedere geografic.</StiMapElement>
     <StiMathFormula>Această componentă este utilizată pentru a afișa formule matematice într-un raport.</StiMathFormula>
+    <StiNumberBoxElement>Acest element este utilizat pentru a selecta o valoare numerică sau pentru a seta un interval de valori numerice.</StiNumberBoxElement>
     <StiOnlineMapElement>Acest element este utilizat pentru a afișa marcaje geografice pe harta online.</StiOnlineMapElement>
     <StiOverlayBand>Această bandă este folosită pentru afişare watermark-uri pe o pagină.</StiOverlayBand>
     <StiPageFooterBand>Această bandă este folosită pentru afişare informatii în subsolul fiecărei pagini cum ar fi număr pagină,data şi alte informaţii adiţionale.</StiPageFooterBand>
     <StiPageHeaderBand>Această bandă este folosită pentru afişarea în antetul de pagină a informaţiilor cum ar fi număr pagină,data şi alte informaţii adiţionale.Este afişată în partea de sus a fiecărei pagini.</StiPageHeaderBand>
     <StiPanel>Aceasta este o regiune dreptunghiulară în care pot fi incluse alte componente, inclusiv benzi.Când panel-ul este mutat,sunt mutate de asemenea şi componentele.Panel-ul poate fi pus atât pe banda de date cât şi pe pagină.</StiPanel>
     <StiPanelElement>O regiune dreptunghiulară care poate conține alte elemente. Când panoul este mutat, elementele din el sunt mutate.</StiPanelElement>
+    <StiPdfDigitalSignature>Această componentă este utilizată pentru a specifica un loc pentru semnătura digitală după ce raportul a fost exportat în Adobe PDF.</StiPdfDigitalSignature>
+    <StiPdfDigitalSignatureElement>Această componentă este utilizată pentru a specifica un spațiu pentru semnătura digitală și câmpurile din certificat atunci când se exportă în PDF.</StiPdfDigitalSignatureElement>
     <StiPivotTableElement>Elementul de tabel pivot este utilizat pentru reprezentarea datelor structurate ca tabel.</StiPivotTableElement>
     <StiProgressElement>Elementul afișează raportul dintre datele de intrare. Acesta poate fi prezentat în diferite moduri - amestec, cerc, bare.</StiProgressElement>
     <StiRectanglePrimitive>Această componentă este folosită pentru a afişa dreptunghiuri.</StiRectanglePrimitive>
@@ -1998,6 +2021,14 @@
     <CenterVertically>Vă permite să aliniaţi o componentă vertical în raport cu marginile containerului în care se gaseşte.</CenterVertically>
     <Close>Închide Designer-ul de Rapoarte .</Close>
     <Columns>Împarte o pagină în coloane.</Columns>
+    <CompilationAccess1>Acest document utilizează procesul de compilare. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschidere" pentru a-l accesa.</CompilationAccess1>
+    <CompilationAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să-l vizualizați, puteți face clic pe butonul "Deschidere în modul sigur". În acest caz, veți folosi interpretarea în loc de compilare, ceea ce vă permite să rulați documentul în siguranță..</CompilationAccess2>
+    <CompilationAccess3>Acest document utilizează procesul de compilare și poate fi nesigur. Nu îl puteți deschide.</CompilationAccess3>
+    <CompilationAccessAllow>Permite deschiderea documentelor care utilizează procesul de compilare fără avertismente sau restricții.</CompilationAccessAllow>
+    <CompilationAccessAsk>Dacă un document utilizează procesul de compilare, va fi afișată o fereastră de avertizare cu acțiuni predefinite.</CompilationAccessAsk>
+    <CompilationAccessDeny>Refuzați deschiderea oricărui document care utilizează procesul de compilare. Se va afișa o fereastră specială.</CompilationAccessDeny>
+    <CompilationAccessForceInterpretation>Documentele cu proces de compilare vor fi deschise fără nicio solicitare, dar vor fi convertite automat în modul de interpretare, care nu utilizează compilare.</CompilationAccessForceInterpretation>
+    <CompilationModeEnabling>Trecere la modul de compilare. Acest mod permite rularea unui cod diferit și uneori poate fi dăunător. Vă rugăm să utilizați acest mod numai dacă înțelegeți toate riscurile și sunteți de acord cu ele. Faceți clic pe butonul {0} pentru a continua.</CompilationModeEnabling>
     <ComponentSize>Schimbă dimensiunea componentele selectate.</ComponentSize>
     <CopyStyle>Stil Copiere</CopyStyle>
     <CopyToClipboard>Copie în Clipboard</CopyToClipboard>
@@ -2074,6 +2105,7 @@
     <menuViewShowHeaders>Arată antetele pentru benzi.</menuViewShowHeaders>
     <menuViewShowOrder>Arată ordinea componentelor de pe o pagină.</menuViewShowOrder>
     <menuViewShowRulers>Vizualizare rigle, utilizate pentru măsurarea şi alinierea obiectelor de pe o pagină.</menuViewShowRulers>
+    <menuViewShowSmartGuides>Afișare ghiduri inteligente pentru a poziționa componentele unul față de celălalt.</menuViewShowSmartGuides>
     <MoveBackward>Mută un element la un nivel mai înalt, în vederea introducerii de componente pe o pagină.</MoveBackward>
     <MoveForward>Mută o componentă la un nivel mai jos în vederea introducerii componentelor pe o pagină.</MoveForward>
     <Orientation>Comutarea paginilor intre aspect portret şi aspect album.</Orientation>
@@ -2146,6 +2178,9 @@
     <CurrentPage>Prelucrarea pagină curentă. Dacă această opţiune este aleasă, o pagină selectată din raport va fi prelucrată.</CurrentPage>
     <CutEdges>Tăiere margini pagini raport.</CutEdges>
     <CutLongLines>Tăiere linii lungi (linii de text) de marginile componentelor.</CutLongLines>
+    <DashboardContains1>Ne pare rău, dar acest raport conține un panou de control.</DashboardContains1>
+    <DashboardContains2>Ar trebui să deschideți acest raport direct în designer!</DashboardContains2>
+    <DashboardContains3>Nu puteți face aceasta din vizualizatorul de rapoarte!</DashboardContains3>
     <DigitalSignature>Semnătura digitală a fişierului.</DigitalSignature>
     <DitheringType>Tip Cuantizare: Făra - făra cuantizare, Ordonat, FloydSt - folosind cuantizare.</DitheringType>
     <DotMatrixMode>Acest mod vă permite să vedeţi cum va arăta un raport în cazul în care-l imprimaţi pe o imprimantă matriceală</DotMatrixMode>
@@ -2208,6 +2243,8 @@
     <TiffCompressionScheme>Schema de compresie fişiere TIFF.</TiffCompressionScheme>
     <ToolEditor>Acest instrument vă permite să editaţi conţinutul componentelor direct la vizualizarea raportului.</ToolEditor>
     <TypeExport>Fişierul raport va fi convertite în.</TypeExport>
+    <UnsafeCompilation1>Acest document utilizează procesul de compilare. În unele cazuri, acest lucru poate să nu fie sigur. Prin urmare, documentul va fi încărcat în modul sigur pentru a minimiza orice riscuri potențiale.</UnsafeCompilation1>
+    <UnsafeCompilation2>Dacă doriți ca acest document să fie utilizat în forma sa originală, vă rugăm să contactați dezvoltatorii dvs.</UnsafeCompilation2>
     <UseDefaultSystemEncoding>Utilizaţi sistemul de encodare implicit sau specifică encodarea standard.</UseDefaultSystemEncoding>
     <UseOnePageHeaderAndFooter>Definire benzi pagină Antet şi Subsol ca antet şi subsol din documentul MS Word.</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Definire benzi pagină Antet şi Subsol ca antet şi subsol a documentului în MS Word.</UsePageHeadersAndFooters>
@@ -2257,6 +2294,7 @@
     <menuEditDataTransformationNew>Transformarea Datelor nouă...</menuEditDataTransformationNew>
     <menuEditDelete>Şterge</menuEditDelete>
     <menuEditEdit>Editează</menuEditEdit>
+    <menuEditFunctionNew>Funcție nouă...</menuEditFunctionNew>
     <menuEditImportRelations>Importă relaţii...</menuEditImportRelations>
     <menuEditPaste>Li&amp;peşte</menuEditPaste>
     <menuEditRedo>&amp;Repetă</menuEditRedo>
@@ -2375,9 +2413,11 @@
   </MathFormula>
   <Messages>
     <ChangeRequestTimeout>Interogările SQL depășesc timpul de așteptare al solicitantului de raport. Setați tipul de așteptare pentru componenta de designer nu mai puțin de {0} secunde.</ChangeRequestTimeout>
+    <DatabaseTypeChangeWarning>Atenție! Această funcție transformă sursa de date în {0}. Pentru a prelua datele cu succes, toate numele tabelelor și coloanelor trebuie să se potrivească. Interogările nu vor fi convertite. Continuați?</DatabaseTypeChangeWarning>
     <DoNotShowAgain>Nu se afișează din nou</DoNotShowAgain>
     <LatexFormat>Formatul LaTeX este utilizat pentru a afișa formule matematice.</LatexFormat>
     <MessageTimeOutExpired>Timp comandă expirat!</MessageTimeOutExpired>
+    <MustBeFile>Trebuie să fie fișierul {0} .</MustBeFile>
     <RenderingWillOccurInTheInterpretationMode>Când vizualizați raportul partajat, redarea va avea loc în modul de interpretare!</RenderingWillOccurInTheInterpretationMode>
     <ResourceCannotBeDeleted>Resursa "{0}" nu poate fi ștearsă deoarece este utilizată în raport!</ResourceCannotBeDeleted>
     <ShareURLOfTheItemHasBeenUpdated>URL-ul de partajare al elementului a fost actualizat!</ShareURLOfTheItemHasBeenUpdated>
@@ -2395,19 +2435,26 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
   <Notices>
     <AccessDenied>Acces interzis!</AccessDenied>
     <AccountLocked>Contul dvs. este blocat! Pentru a rezolva aceasta, vă rugăm să trimiteți cererea dvs. la sales@stimulsoft.com!</AccountLocked>
+    <ActivationContact1>Vă rugăm să contactați departamentul nostru de vânzări la </ActivationContact1>
+    <ActivationContact2> pentru a rezolva.</ActivationContact2>
     <ActivationExpiriedBeforeFirstRelease>Abonamentul Stimulsoft Reports.Ultimate a expirat mai devreme decât lansarea primii versiuni a Stimulsoft Server!</ActivationExpiriedBeforeFirstRelease>
     <ActivationLicenseIsNotCorrect>Fișierul de licență nu este corect! Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
     <ActivationLockedAccount>Contul dvs. este blocat. Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationLockedAccount>
     <ActivationLockedAccountExt>Contul dvs. este blocat.</ActivationLockedAccountExt>
     <ActivationMaxActivationsReached>Ați atins numărul maxim de activări. Vă rugăm să contactați departamentul nostru de vânzări la: sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationMaxActivationsReached1>Puteți gestiona computerele înregistrate de la dvs </ActivationMaxActivationsReached1>
+    <ActivationMaxActivationsReached2>Cont Stimulsoft.</ActivationMaxActivationsReached2>
     <ActivationMaxComputersReached>Ați înregistrat deja numărul maxim de calculatoare disponibile pentru abonament.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Serverul pentru activare Stimulsoft nu este disponibil acum! Vă rugăm să încercați din nou mai târziu.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Nu puteți activa această versiune de Stimulsoft Server deoarece abonamentul dvs. a expirat! Conectați-vă la contul dvs. și verificați ce versiune Stimulsoft Server puteți instala și activa.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>A apărut o eroare în timpul activării. Vă rugăm să încercați din nou mai târziu.</ActivationSomeTroublesOccurred>
     <ActivationTrialExpired>Puteți continua să utilizați Stimulsoft Designer achiziționând software-ul.</ActivationTrialExpired>
+    <ActivationTrialExtend1>Dacă sunteți interesat să prelungiți perioada de testare, vă rugăm </ActivationTrialExtend1>
+    <ActivationTrialExtend2>spune-ne de ce.</ActivationTrialExtend2>
     <ActivationUserNameOrPasswordIsWrong>Nume utilizator (e-mail) sau parola greșită!</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>Tipul dvs. de cont nu permite activarea Stimulsoft Server!</ActivationWrongAccountType>
     <Alert>Alertă</Alert>
+    <AuthAccountAlreadyExists>Contul cu acest nume de utilizator (e-mail) există deja. Pentru a-l asocia cu al dvs. {0}, vă rugăm să utilizați parola contului dvs. Stimulsoft.</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>Contul nu poate fi utilizat acum!</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>Contul nu este activat încă! Vă rugăm să urmați instrucțiunile trimise in e-mail la înregistrare.</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>Rolul de utilizator nu poate fi schimbat, deoarece este ultimul administrator în acest spațiu de lucru!</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2424,6 +2471,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AuthOAuthIdNotSpecified>Identificatorul OAuth nu este specificat!</AuthOAuthIdNotSpecified>
     <AuthPasswordIsNotCorrect>Parola nu este corectă!</AuthPasswordIsNotCorrect>
     <AuthPasswordIsNotSpecified>Parola nu este specificată!</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooLong>Parola este prea lungă!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Parola este prea scurtă(minim 6 caractere)!</AuthPasswordIsTooShort>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Nu puteți șterge rolul, deoarece este folosit de către alți utilizatori.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Rolul denumit "{0}" există deja!</AuthRoleNameAlreadyExists>
@@ -2434,15 +2482,18 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AuthUserNameAlreadyExists>Numele de utilizator (e-mail) este deja în uz!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Această adresă de e-mail nu poate fi utilizată!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Numele de utilizator (e-mail) nu este specificat!</AuthUserNameIsNotSpecified>
+    <AuthUserNameIsTooLong>Numele de utilizator (e-mail) este prea lung!</AuthUserNameIsTooLong>
     <AuthUserNameNotAssociatedWithYourAccount>Nume utilizator (e-mail) {0} nu este asociat cu contul dvs. {1}!</AuthUserNameNotAssociatedWithYourAccount>
     <AuthUserNameOrPasswordIsNotCorrect>Numele de utilizator (e-mail) sau parola este incorectă!</AuthUserNameOrPasswordIsNotCorrect>
     <AuthUserNameShouldLookLikeAnEmailAddress>Numele de utilizator ar trebui să fie similar cu adresa de e-mail!</AuthUserNameShouldLookLikeAnEmailAddress>
     <AuthWorkspaceNameAlreadyInUse>Numele spațiului de lucru este deja utilizat!</AuthWorkspaceNameAlreadyInUse>
     <CommandTimeOut>Momentul de așteptare a procesării comenzii a trecut</CommandTimeOut>
     <Congratulations>Felicitări!</Congratulations>
+    <DeveloperInformation>Informație dezvoltator</DeveloperInformation>
     <EndDateShouldBeGreaterThanCurrentDate>Data încheiere trebuie să fie mai mare decât data curentă!</EndDateShouldBeGreaterThanCurrentDate>
     <EndDateShouldBeGreaterThanStartDate>Data încheiere trebuie să fie mai mare decât data de începere!</EndDateShouldBeGreaterThanStartDate>
     <ExecutionError>Eroare de execuție</ExecutionError>
+    <GracePeriod>Perioada de grație a abonamentului dvs. va expira în {0} zile.</GracePeriod>
     <IsIdentical>"{0}" și "{1}" sunt identice."</IsIdentical>
     <IsNotAuthorized>Nu există acces la "{0}"!</IsNotAuthorized>
     <IsNotCorrect>"{0}" este incorect!</IsNotCorrect>
@@ -2462,12 +2513,15 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NewDesignerAvailable>Stimulsoft Designer {0} este disponibil.</NewDesignerAvailable>
     <NewProduct>Un nou produs este adăugat la abonament!</NewProduct>
     <NewVersionsAvailable>Este disponibilă o nouă versiune!</NewVersionsAvailable>
+    <NotificationConnectPackage>Conectați pachetul "{0}" pentru funcționare corectă..</NotificationConnectPackage>
     <NotificationFailed>Rezultatul a eșuat!</NotificationFailed>
     <NotificationFailedAddFollowingFiles>Nu s-au putut adăuga următoarele fișiere. Au depășit dimensiunea de {0} MB.</NotificationFailedAddFollowingFiles>
     <NotificationFilesUploadingComplete>Fișierele încărcate cu succes.</NotificationFilesUploadingComplete>
     <NotificationFileUploading>Fișierul "{0}" se încarcă.</NotificationFileUploading>
     <NotificationItemDelete>Elementele se șterg.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Elementele s-au șters cu succes.</NotificationItemDeleteComplete>
+    <NotificationItemExtraComponentRequired>Este necesară o componentă suplimentară</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallWebView>Vă rugăm să instalați WebView2 Runtime pentru a funcționa corect cu editorul Blockly.</NotificationItemInstallWebView>
     <NotificationItemRestore>Elementele se restaurează.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Elementele s-au restaurat cu succes.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>Elementele se transferă.</NotificationItemTransfer>
@@ -2477,6 +2531,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NotificationMailingComplete>Corespondenţa "{0}" este completă.</NotificationMailingComplete>
     <NotificationMailingWaitingProcessing>Corespondenţa "{0}" așteaptă prelucrarea.</NotificationMailingWaitingProcessing>
     <NotificationOperationAborted>Operațiune abandonată!</NotificationOperationAborted>
+    <NotificationPackageRequiredToDisplay>Pentru afișare conținut, descărcați pachetul "{0}" din NuGet.</NotificationPackageRequiredToDisplay>
     <NotificationRecycleBinCleaning>Coșul de reciclare se curăță.</NotificationRecycleBinCleaning>
     <NotificationRecycleBinCleaningComplete>Coșul de reciclare s-a șters cu succes.</NotificationRecycleBinCleaningComplete>
     <NotificationRecycleBinWaitingProcessing>Curățarea Coșului de reciclare așteaptă prelucrarea.</NotificationRecycleBinWaitingProcessing>
@@ -2485,6 +2540,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NotificationReportRendering>Raportul "{0}" este afișat</NotificationReportRendering>
     <NotificationReportRenderingComplete>Raportul "{0}" s-a afișat.</NotificationReportRenderingComplete>
     <NotificationReportWaitingProcessing>Raportul "{0}" așteaptă prelucrarea.</NotificationReportWaitingProcessing>
+    <NotificationReturnToDesigner>Reveniți la Stimulsoft Designer pentru a continua.</NotificationReturnToDesigner>
     <NotificationSchedulerRunning>Planificatorul "{0}" se execută.</NotificationSchedulerRunning>
     <NotificationSchedulerRunningComplete>Planificatorul "{0}" s-a executat complet.</NotificationSchedulerRunningComplete>
     <NotificationSchedulerWaitingProcessing>Planificatorul "{0}" așteaptă prelucrarea.</NotificationSchedulerWaitingProcessing>
@@ -2517,7 +2573,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SpecifiedItemIsNot>Articolul specificat nu este "{0}"!</SpecifiedItemIsNot>
     <SubscriptionExpired>Abonamentul dvs. a expirat!</SubscriptionExpired>
     <SubscriptionExpiredDate>Abonamentul va expira la data de {0}</SubscriptionExpiredDate>
+    <SubscriptionExpiredDays>Expiră în {0} zile</SubscriptionExpiredDays>
     <SubscriptionExpiredExt>Abonamentul dvs. a expirat. Actualizați-vă abonamentul pentru a obține ultima versiune.</SubscriptionExpiredExt>
+    <SubscriptionExpiredShort>Abonamentul a expirat</SubscriptionExpiredShort>
     <SubscriptionsOut10>Au mai rămas 10 zile până la expirarea abonamentului!</SubscriptionsOut10>
     <SubscriptionsOut20>Perioada de abonare expiră în 20 de zile!</SubscriptionsOut20>
     <SuccessfullyRenewed>Abonamentul dvs. a fost actualizat cu succes!</SuccessfullyRenewed>
@@ -3000,6 +3058,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiBrushTypeGradient45>Gradient Brush, Angle 45</StiBrushTypeGradient45>
     <StiBrushTypeGradient90>Gradient Brush, Angle 90</StiBrushTypeGradient90>
     <StiBrushTypeSolid>Solid Brush</StiBrushTypeSolid>
+    <StiButtonSendTypeFDF>FDF</StiButtonSendTypeFDF>
+    <StiButtonSendTypeHTML>HTML</StiButtonSendTypeHTML>
+    <StiButtonSendTypePDF>PDF</StiButtonSendTypePDF>
+    <StiButtonSendTypeXFDF>XFDF</StiButtonSendTypeXFDF>
     <StiCalculationModeCompilation>Compilare</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>Interpretare</StiCalculationModeInterpretation>
     <StiCapStyleArrow>Săgeată</StiCapStyleArrow>
@@ -3048,6 +3110,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiColumnShape3DBox>Cutie</StiColumnShape3DBox>
     <StiColumnShape3DPartialPyramid>Piramidă parțială</StiColumnShape3DPartialPyramid>
     <StiColumnShape3DPyramid>Piramidă</StiColumnShape3DPyramid>
+    <StiCompilationAccessAllow>Permite</StiCompilationAccessAllow>
+    <StiCompilationAccessAsk>Întreabă</StiCompilationAccessAsk>
+    <StiCompilationAccessDeny>Refuză</StiCompilationAccessDeny>
+    <StiCompilationAccessForceInterpretation>Forțează interpretarea</StiCompilationAccessForceInterpretation>
     <StiCrossHorAlignmentCenter>Central</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Stânga</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Niciuna</StiCrossHorAlignmentNone>
@@ -3106,6 +3172,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiFilterConditionContaining>conţinând</StiFilterConditionContaining>
     <StiFilterConditionEndingWith>sfârşind cu</StiFilterConditionEndingWith>
     <StiFilterConditionEqualTo>egal cu</StiFilterConditionEqualTo>
+    <StiFilterConditionEqualToVariableOrVariableIsNull>egal cu variabila sau variabila este nulă</StiFilterConditionEqualToVariableOrVariableIsNull>
     <StiFilterConditionGreaterThan>mai mare decat</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>mai mare sau egal cu</StiFilterConditionGreaterThanOrEqualTo>
     <StiFilterConditionIsBlank>este necompletat</StiFilterConditionIsBlank>
@@ -3223,6 +3290,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiLegendVertAlignmentCenter>Centrat</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Sus</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Sus exterior</StiLegendVertAlignmentTopOutside>
+    <StiLineWeightNormal>Normal</StiLineWeightNormal>
+    <StiLineWeightThick>Gros</StiLineWeightThick>
+    <StiLineWeightThin>Subţire</StiLineWeightThin>
     <StiMapIDAustralia>Australia</StiMapIDAustralia>
     <StiMapIDAustria>Austria</StiMapIDAustria>
     <StiMapIDBrazil>Brazilia</StiMapIDBrazil>
@@ -3288,6 +3358,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiOrientationVertical>Verticală</StiOrientationVertical>
     <StiPageOrientationLandscape>Peisaj</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Portret</StiPageOrientationPortrait>
+    <StiPdfDigitalSignatureAppearanceTypeDraw>Desen</StiPdfDigitalSignatureAppearanceTypeDraw>
+    <StiPdfDigitalSignatureAppearanceTypeImage>Imagine</StiPdfDigitalSignatureAppearanceTypeImage>
+    <StiPdfDigitalSignatureAppearanceTypeNone>Nici unul</StiPdfDigitalSignatureAppearanceTypeNone>
+    <StiPdfDigitalSignatureAppearanceTypeText>Text</StiPdfDigitalSignatureAppearanceTypeText>
     <StiPenStyleDash>Liniuţă</StiPenStyleDash>
     <StiPenStyleDashDot>Linie Punct</StiPenStyleDashDot>
     <StiPenStyleDashDotDot>Linie punct punct</StiPenStyleDashDotDot>
@@ -3364,6 +3438,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiReportUnitTypeInches>Inci</StiReportUnitTypeInches>
     <StiReportUnitTypeMillimeters>Milimetri</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixeli</StiReportUnitTypePixels>
+    <StiReportUnitTypePoints>Puncte</StiReportUnitTypePoints>
     <StiRestrictionsAll>Toate</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Permite modificare</StiRestrictionsAllowChange>
     <StiRestrictionsAllowDelete>Permite ştergere</StiRestrictionsAllowDelete>
@@ -3400,6 +3475,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiShiftModeIncreasingSize>Creşte mărime</StiShiftModeIncreasingSize>
     <StiShiftModeNone>Nimic</StiShiftModeNone>
     <StiShiftModeOnlyInWidthOfComponent>Numai în lăţimea componentei</StiShiftModeOnlyInWidthOfComponent>
+    <StiShowEmptyCellsAsConnectPointsWithLine>Conectare puncte cu linie</StiShowEmptyCellsAsConnectPointsWithLine>
+    <StiShowEmptyCellsAsGap>Decalaj</StiShowEmptyCellsAsGap>
+    <StiShowEmptyCellsAsZero>Zero</StiShowEmptyCellsAsZero>
     <StiShowSeriesLabelsFromChart>Din diagramă</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>Din serii</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>Niciuna</StiShowSeriesLabelsNone>
@@ -3409,6 +3487,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiShowYAxisBoth>Ambele</StiShowYAxisBoth>
     <StiShowYAxisCenter>Centru</StiShowYAxisCenter>
     <StiShowYAxisLeft>Stânga</StiShowYAxisLeft>
+    <StiSignatureModeDraw>Desen</StiSignatureModeDraw>
+    <StiSignatureModeType>Tip</StiSignatureModeType>
     <StiSignatureTypeDigitalSignature>Semnatura digitală</StiSignatureTypeDigitalSignature>
     <StiSignatureTypeDraw>Desen</StiSignatureTypeDraw>
     <StiSignatureTypeSelectStyle>Selectare Stil</StiSignatureTypeSelectStyle>
@@ -3445,6 +3525,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiTableAutoWidthTypeFullTable>Tabelă plină</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Ultimile coloane</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>Niciunul</StiTableAutoWidthTypeNone>
+    <StiTableSizeModeAutoSize>Dimensionare automată</StiTableSizeModeAutoSize>
+    <StiTableSizeModeFit>Potrivire</StiTableSizeModeFit>
     <StiTargetModePercentage>Procentaj</StiTargetModePercentage>
     <StiTargetModeVariation>Variație</StiTargetModeVariation>
     <StiTextHorAlignmentCenter>Centrat</StiTextHorAlignmentCenter>
@@ -3463,6 +3545,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiTextSizeModeFit>Potrivire</StiTextSizeModeFit>
     <StiTextSizeModeTrimming>Aliniere</StiTextSizeModeTrimming>
     <StiTextSizeModeWordWrap>WordWrap</StiTextSizeModeWordWrap>
+    <StiThemeAppearanceAuto>Auto</StiThemeAppearanceAuto>
+    <StiThemeAppearanceDark>Întunecat</StiThemeAppearanceDark>
+    <StiThemeAppearanceLight>Luminos</StiThemeAppearanceLight>
+    <StiThemeAppearanceLightGray>Gri deschis</StiThemeAppearanceLightGray>
     <StiTimeDateStepDay>Zi</StiTimeDateStepDay>
     <StiTimeDateStepHour>Ora</StiTimeDateStepHour>
     <StiTimeDateStepMinute>Minut</StiTimeDateStepMinute>
@@ -3479,6 +3565,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiTypeModeNullableValue>Valoare care poate fi nulă</StiTypeModeNullableValue>
     <StiTypeModeRange>Domeniu</StiTypeModeRange>
     <StiTypeModeValue>Valoare</StiTypeModeValue>
+    <StiUnitAlignmentPrefix>Prefix</StiUnitAlignmentPrefix>
+    <StiUnitAlignmentPrefixInside>Prefix interior</StiUnitAlignmentPrefixInside>
+    <StiUnitAlignmentPrefixInsideWithSpace>Prefix interior cu spațiu</StiUnitAlignmentPrefixInsideWithSpace>
+    <StiUnitAlignmentSuffix>Sufix</StiUnitAlignmentSuffix>
+    <StiUnitAlignmentSuffixInside>Sufix interior</StiUnitAlignmentSuffixInside>
+    <StiUnitAlignmentSuffixInsideWithSpace>Sufix interior cu spațiu</StiUnitAlignmentSuffixInsideWithSpace>
     <StiVertAlignmentBottom>Jos</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Centru</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Sus</StiVertAlignmentTop>
@@ -3563,6 +3655,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <PrintingEvent>Imprimă</PrintingEvent>
     <ProcessCellEvent>Procesează Celula</ProcessCellEvent>
     <ProcessChartEvent>Procesează grafic</ProcessChartEvent>
+    <RefreshingEvent>Reîmprospătare</RefreshingEvent>
     <RenderingEvent>Redare</RenderingEvent>
     <ReportCacheProcessingEvent>Procesare cache Raport</ReportCacheProcessingEvent>
     <SelectedIndexChangedEvent>Schimbare index selectat</SelectedIndexChangedEvent>
@@ -3642,8 +3735,10 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AllowApplyColorNegative>Permite Aplicarea Culorii Negative</AllowApplyColorNegative>
     <AllowApplyLineColor>Permiteți aplicare culoare linie</AllowApplyLineColor>
     <AllowApplyStyle>Permite aplicarea stilului</AllowApplyStyle>
+    <AllowCleanSignature>Permiteți ștergerea semnăturii</AllowCleanSignature>
     <AllowExpressions>Permite Expresii</AllowExpressions>
     <AllowHtmlTags>Permite tag-uri Html </AllowHtmlTags>
+    <AllowNull>Permite Null</AllowNull>
     <AllowSeries>Permite Serii</AllowSeries>
     <AllowSeriesElements>Permite Serii Elemente</AllowSeriesElements>
     <AllowSorting>Permite sortare</AllowSorting>
@@ -3673,6 +3768,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Anchor>Ancoră</Anchor>
     <Angle>Unghi</Angle>
     <Antialiasing>Rotunjire colţuri</Antialiasing>
+    <Appearance>Aspect</Appearance>
+    <Apply>Aplică</Apply>
     <Area>Arie</Area>
     <Argument>Argument</Argument>
     <ArgumentDataColumn>Coloană de date Argument</ArgumentDataColumn>
@@ -3733,6 +3830,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <BrushType>Tipul pensulei</BrushType>
     <BubbleBackColor>Culoare fundal Balon</BubbleBackColor>
     <BubbleBorderColor>Culoare bordură Balon</BubbleBorderColor>
+    <BubbleScale>Scală bule</BubbleScale>
     <BusinessObject>Element Business Object</BusinessObject>
     <CacheAllData>Ţine toate datele în Cache</CacheAllData>
     <CacheTotals>Arhivă Totaluri</CacheTotals>
@@ -3746,6 +3844,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Categories>Categorii</Categories>
     <Category>Categorie</Category>
     <CategoryConnections>Conexiuni</CategoryConnections>
+    <CellAlignment>Aliniere celulară</CellAlignment>
     <CellBackColor>Culoare Fundal Celulă</CellBackColor>
     <CellDockStyle>Celulă Dock Style</CellDockStyle>
     <CellForeColor>Culoare Fața Celulă</CellForeColor>
@@ -3755,6 +3854,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Center>Centru</Center>
     <CenterPoint>Punct Centru</CenterPoint>
     <ChartAreaBorderColor>Culoare Bordură</ChartAreaBorderColor>
+    <ChartAreaBorderThickness>Grosime margine zonă grafică</ChartAreaBorderThickness>
     <ChartAreaBrush>Arie Pensulă</ChartAreaBrush>
     <ChartAreaShowShadow>Arată Umbră</ChartAreaShowShadow>
     <ChartType>Tipul graficului</ChartType>
@@ -3773,6 +3873,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Child>Copil</Child>
     <ChildColumns>Coloane copil</ChildColumns>
     <ChildSource>Sursă copil</ChildSource>
+    <City>Oraș</City>
     <ClearFormat>Anulează format</ClearFormat>
     <CloneContainer>Duplicare container</CloneContainer>
     <CloseValues>Valori apropiate</CloseValues>
@@ -3819,6 +3920,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <CornerRadius>Rază unghi</CornerRadius>
     <Count>Număr</Count>
     <CountData>Număr date</CountData>
+    <Country>Țară</Country>
     <Create>Crează</Create>
     <CreateFieldOnDoubleClick>Crează câmp la dublu clic</CreateFieldOnDoubleClick>
     <CreateLabel>Creează etichetă</CreateLabel>
@@ -3849,10 +3951,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DateInfo>Informaţii dată</DateInfo>
     <DateTimeMode>Modul DateTime</DateTimeMode>
     <DateTimeStep>Interval Pas</DateTimeStep>
+    <DecimalDigits>Cifre zecimale</DecimalDigits>
     <Default>Predefinite</Default>
     <DefaultColor>Culoare prestabilită</DefaultColor>
     <DefaultHeightCell>Înălţime predefinită a celulelor</DefaultHeightCell>
     <DefaultNamespace>Spaţiu de nume predefinit</DefaultNamespace>
+    <DefaultSettings>Setări implicite</DefaultSettings>
     <DependentColumn>Coloană Dependentă</DependentColumn>
     <DependentValue>Valoare Dependentă</DependentValue>
     <Description>Descriere</Description>
@@ -3867,6 +3971,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <DisplayValue>Vizualizează valoare</DisplayValue>
     <Distance>Distanţă</Distance>
     <DistanceBetweenTabs>Distanţa între Tab-uri</DistanceBetweenTabs>
+    <DistinguishedName>Nume Distinctiv</DistinguishedName>
     <Dock>Dochează</Dock>
     <DockableTable>Tabel docabil</DockableTable>
     <DockStyle>Stil docare</DockStyle>
@@ -3925,6 +4030,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FaqPage>Pagina întrebări şi răspunsuri</FaqPage>
     <Field>Câmp</Field>
     <FieldIs>Campul este</FieldIs>
+    <Fifth>Al cincilea</Fifth>
     <File>Fişier</File>
     <Fill>Umplere</Fill>
     <FillColor>Culoare Umplere</FillColor>
@@ -3934,6 +4040,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FilterMode>Mod Filtrare</FilterMode>
     <FilterOn>Filtru activ</FilterOn>
     <Filters>Filtre</Filters>
+    <First>Primul</First>
     <FirstTabOffset>Distanţa primului Tab</FirstTabOffset>
     <FixedWidth>Lăţime fixă</FixedWidth>
     <Flat>Plat</Flat>
@@ -3965,18 +4072,24 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <FooterRowsCount>Număr rânduri subsol</FooterRowsCount>
     <Footers>Subsoluri</Footers>
     <ForeColor>Culoare text</ForeColor>
+    <Foreground>Prim plan</Foreground>
     <Format>Format</Format>
+    <FormName>Nume formular</FormName>
+    <FormSettings>Setări formular</FormSettings>
+    <Fourth>Al patrulea</Fourth>
     <From>De la</From>
     <FrozenColumns>Coloane înghețate</FrozenColumns>
     <FullConvertExpression>Convertire totală expresie</FullConvertExpression>
     <FullName>Nume complet</FullName>
     <Function>Funcţie</Function>
     <Functions>Funcţii</Functions>
+    <GapAfterLastColumn>Decalaj după ultima coloană</GapAfterLastColumn>
     <GisSettings>Setări Gis</GisSettings>
     <GlobalizationStrings>Şiruri globalizare</GlobalizationStrings>
     <GlobalizedName>Denumire globalizată</GlobalizedName>
     <GlyphColor>Culoare Glyph</GlyphColor>
     <GridColor>Culoare Grilă</GridColor>
+    <GridColumns>Coloane grilă</GridColumns>
     <GridLineColor>Culoare grilă</GridLineColor>
     <GridLinesHor>Linii orizontale grilă</GridLinesHor>
     <GridLinesHorColor>Culoare Linii Orizontale Grilă</GridLinesHorColor>
@@ -3985,6 +4098,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <GridLinesVert>Linii verticale grilă</GridLinesVert>
     <GridLinesVertColor>Culoare Linii Verticale Grilă</GridLinesVertColor>
     <GridOutline>Contur Grid</GridOutline>
+    <GridVerticalStep>Pas vertical Grilă</GridVerticalStep>
     <Group>Grup</Group>
     <GroupDataColumn>Grup Coloană Date</GroupDataColumn>
     <GroupMeter>Grup</GroupMeter>
@@ -4012,6 +4126,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <HeatmapColors>Culori Hartă Căldură</HeatmapColors>
     <HeatmapWithGroup>Hartă termografică cu grup</HeatmapWithGroup>
     <Height>Înălţime</Height>
+    <Hidden>Ascuns</Hidden>
     <HideSeriesWithEmptyTitle>Ascunde seriile fără Titlu</HideSeriesWithEmptyTitle>
     <HideZeros>Ascunde zerouri</HideZeros>
     <High>Înalt</High>
@@ -4044,10 +4159,13 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Image>Imagine</Image>
     <ImageAlign>Aliniază Imagine</ImageAlign>
     <ImageAlignment>Aliniere imagini</ImageAlignment>
+    <ImageAspectRatio>Raport aspect imagine</ImageAspectRatio>
     <ImageData>Date imagini</ImageData>
+    <ImageEnabled>Imagine activată</ImageEnabled>
     <ImageHorAlignment>Aliniere orizontală a imaginii</ImageHorAlignment>
     <ImageMultipleFactor>Factor multiplu cu imagini</ImageMultipleFactor>
     <ImageRotation>Rotirea imaginii</ImageRotation>
+    <ImageShowBehind>Imagine în spate</ImageShowBehind>
     <ImageStretch>Întinde imaginea</ImageStretch>
     <ImageTiling>Imagine multiplicată</ImageTiling>
     <ImageTransparency>Transparenţă imagine</ImageTransparency>
@@ -4056,12 +4174,17 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ImportRelations>Importă relaţii</ImportRelations>
     <Increment>Măreşte</Increment>
     <Indent>Margine pagină</Indent>
+    <Indicator>Indicator</Indicator>
+    <IndicatorValue>Valoare indicator</IndicatorValue>
     <IndividualColor>Culoare individuală</IndividualColor>
     <InfographicsTitle>Titlu</InfographicsTitle>
     <InitBy>Iniţializat de</InitBy>
     <Initials>Inițiale</Initials>
     <InitialSelection>Selecția inițială</InitialSelection>
     <InitialSelectionSource>Sursa inițială de selecție</InitialSelectionSource>
+    <InitialValue>Valoare inițială</InitialValue>
+    <InnerText>Text interior</InnerText>
+    <Input>Intrare</Input>
     <Insert>Inserează</Insert>
     <Interaction>Interacţiune</Interaction>
     <InterlacedBrush>Pensulă întreţesută</InterlacedBrush>
@@ -4150,12 +4273,21 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Locked>Blocat</Locked>
     <Logarithmic>Logaritmic</Logarithmic>
     <LogarithmicScale>Scală Logaritmică</LogarithmicScale>
+    <Logo>Logo</Logo>
     <Longitude>Longitudine</Longitude>
     <Low>Scăzut</Low>
     <LowValues>Valori scăzute</LowValues>
     <MajorInterval>Interval Superior</MajorInterval>
+    <MapAfrica>Africa</MapAfrica>
+    <MapAsia>Asia</MapAsia>
+    <MapCustom>Personalizat</MapCustom>
+    <MapEurope>Europa</MapEurope>
     <MapID>ID Hartă</MapID>
+    <MapNorthAmerica>America de Nord</MapNorthAmerica>
+    <MapOceania>Oceania</MapOceania>
+    <MapPopularMaps>Hărți populare</MapPopularMaps>
     <Maps>Hărți</Maps>
+    <MapSouthAmerica>America de Sud</MapSouthAmerica>
     <MapStyle>Stil</MapStyle>
     <MapType>Tip Hartă</MapType>
     <Margin>Margine</Margin>
@@ -4240,6 +4372,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <OffsetAngle>Unghi Compensare</OffsetAngle>
     <OnClick>La clic</OnClick>
     <OnDataManipulation>La Manipularea Datelor</OnDataManipulation>
+    <OnePointZoom>Zoom cu un punct</OnePointZoom>
     <OnHover>La Trecere peste</OnHover>
     <OnlyText>Doar text</OnlyText>
     <Opacity>Opacitate</Opacity>
@@ -4249,9 +4382,11 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Options3D>Opțiuni 3D</Options3D>
     <Orientation>Orientare</Orientation>
     <OthersText>Altele Text</OthersText>
+    <OverlappedColor>Culoare suprapusă</OverlappedColor>
     <Padding>Umplutură</Padding>
     <PageHeight>Înălţime pagină</PageHeight>
     <PageNumbers>Număr pagină</PageNumbers>
+    <PageTurnTime>Timpul de întoarcere a paginii</PageTurnTime>
     <PageWidth>Lăţime pagină</PageWidth>
     <Paper>Hârtie</Paper>
     <PaperSize>Dimensiune hârtie</PaperSize>
@@ -4273,6 +4408,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <PathData>Cale Date</PathData>
     <PathSchema>Cale Schemă</PathSchema>
     <Pattern>Model</Pattern>
+    <PDFPreview>Previzualizare PDF</PDFPreview>
     <Placeholder>Substituent</Placeholder>
     <Placement>Amplasare</Placement>
     <PlaceOnToolbox>Amplasează în bara de unelte</PlaceOnToolbox>
@@ -4323,6 +4459,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Ratio>Raport</Ratio>
     <RatioY>Raport Y</RatioY>
     <ReadOnly>Nemodificabil</ReadOnly>
+    <Reason>Motiv</Reason>
     <RecentFonts>Fonturi recente</RecentFonts>
     <ReconnectOnEachRow>Reconectează la fiecare rând</ReconnectOnEachRow>
     <ReferencedAssemblies>Assembly-urile referite</ReferencedAssemblies>
@@ -4334,6 +4471,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Relations>Relaţii</Relations>
     <RelativeHeight>Înălțime Relativă</RelativeHeight>
     <RelativeWidth>Lățime Relativă</RelativeWidth>
+    <RememberSelection>Păstrare selecție</RememberSelection>
     <RemoveUnusedDataBeforeStart>Înlătură datele neutilizate înainte de pornire</RemoveUnusedDataBeforeStart>
     <RenderTo>Redă la</RenderTo>
     <ReportAlias>Alias</ReportAlias>
@@ -4346,6 +4484,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ReportUnit>Unitatea raportului</ReportUnit>
     <RequestFromUser>Cerere utilizator</RequestFromUser>
     <RequestParameters>Parametri Ceruţi</RequestParameters>
+    <Required>Necesar</Required>
     <ResetAllFilters>Resetați toate filtrele</ResetAllFilters>
     <ResetDataSource>Resetează sursa de date</ResetDataSource>
     <ResetPageNumber>Resetează numărul paginii</ResetPageNumber>
@@ -4371,9 +4510,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <RowHeadersVisible>Antete rând vizibile</RowHeadersVisible>
     <RowHeaderWidth>Lăţime antet de rând</RowHeaderWidth>
     <Rows>Rânduri</Rows>
+    <RowsPerPage>Rânduri pe pagină</RowsPerPage>
     <Scale>Scară</Scale>
     <ScaleHor>Scară orizontală</ScaleHor>
     <ScriptLanguage>Limbajul scriptului</ScriptLanguage>
+    <ScrollTime>Timp derulare</ScrollTime>
+    <Second>Al doilea</Second>
     <SegmentPerHeight>Segmente pe înălţime</SegmentPerHeight>
     <SegmentPerWidth>Segmente pe lăţime</SegmentPerWidth>
     <SelectedBackColor>Fundal selectat</SelectedBackColor>
@@ -4392,10 +4534,13 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <SelectionEnabled>Selecţie Activată</SelectionEnabled>
     <SelectionForeColor>Selectare culoare de text</SelectionForeColor>
     <SelectionMode>Mod selecţie</SelectionMode>
+    <SelectionType>Tip selecție</SelectionType>
     <SelectStyle>Selecție Stil</SelectStyle>
+    <SendType>Tip trimitere</SendType>
     <SeparatorColor>Culoare Separator</SeparatorColor>
     <SerialNumber>Număr de serie</SerialNumber>
     <Series>Serie</Series>
+    <SeriesBorderColor>Culoarea chenarului seriei</SeriesBorderColor>
     <SeriesBorderThickness>Grosimea chenarului seriei</SeriesBorderThickness>
     <SeriesColors>Serii Culori</SeriesColors>
     <SeriesCornerRadius>Serii Întindere Unghi</SeriesCornerRadius>
@@ -4419,6 +4564,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ShortValue>Valoare scurtă</ShortValue>
     <ShowAllValue>Arată Toate Valorile</ShowAllValue>
     <ShowBehind>Afişează în spate</ShowBehind>
+    <ShowBlanks>Afisare spații libere</ShowBlanks>
     <ShowBubble>Arată Balon</ShowBubble>
     <ShowDialog>Arată căsuţă</ShowDialog>
     <ShowEdgeValues>Arată valorile marginilor</ShowEdgeValues>
@@ -4474,6 +4620,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Sorted>Sortat</Sorted>
     <SortingColumn>Coloane sortare</SortingColumn>
     <SortingEnabled>Este permisă sortarea</SortingEnabled>
+    <SortLetters>A-Z</SortLetters>
     <SortType>Tip de sortare</SortType>
     <Space>Spaţiu</Space>
     <SpaceRatio>Coeficient spațiu</SpaceRatio>
@@ -4489,12 +4636,14 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StartPosition>Poziţie iniţială</StartPosition>
     <StartValue>Valoare Pornire</StartValue>
     <StartWidth>Lățime Pornire</StartWidth>
+    <State>Stat</State>
     <Step>Trepte</Step>
     <StiGlassBrush>Sticlă</StiGlassBrush>
     <Stop>Stop</Stop>
     <StopBeforePage>Stop înainte de pagina</StopBeforePage>
     <StopBeforePrint>Stop înainte de imprimare</StopBeforePrint>
     <StoreImagesInResources>Păstreză imagini în resurse</StoreImagesInResources>
+    <StreetAddress>Stradă</StreetAddress>
     <Stretch>Întinde</Stretch>
     <StretchToPrintArea>Întinde pe aria de imprimare</StretchToPrintArea>
     <Strikeout>Tăiat</Strikeout>
@@ -4506,6 +4655,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Style>Stil</Style>
     <StyleColors>Stil culori</StyleColors>
     <Styles>Stiluri</Styles>
+    <SubmissionMessage>Mesaj trimitere</SubmissionMessage>
     <SubReportPage>Pagină sub-raport</SubReportPage>
     <Summaries>Rezumate</Summaries>
     <Summary>Rezumat</Summary>
@@ -4526,6 +4676,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TagValue>Valoare Tag</TagValue>
     <Target>Ţintă</Target>
     <TargetColor>Culoare țintă</TargetColor>
+    <TargetFormat>Format țintă</TargetFormat>
     <TargetIcon>Pictograma țintă</TargetIcon>
     <TargetMode>Mod țintă</TargetMode>
     <TargetSettings>Ţintă</TargetSettings>
@@ -4534,13 +4685,19 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TextAfter>Text după</TextAfter>
     <TextAlign>Aliniere text</TextAlign>
     <TextAlignment>Aliniere Text</TextAlignment>
+    <TextAngle>Unghi text</TextAngle>
     <TextBefore>Text înainte</TextBefore>
     <TextBrush>Pensulă text</TextBrush>
     <TextColor>Culoare text</TextColor>
+    <TextEnabled>Text activat</TextEnabled>
+    <TextFont>Font text</TextFont>
     <TextFormat>Format text</TextFormat>
     <TextOnly>Doar text</TextOnly>
     <TextOptions>Opţiuni text</TextOptions>
     <TextQuality>Calitatea textului</TextQuality>
+    <TextRightToLeft>Text de la dreapta la stânga</TextRightToLeft>
+    <TextShowBehind>Afișare text în spate</TextShowBehind>
+    <Third>Al treilea</Third>
     <TickLabelMajorFont>Font Majuscul Etichetă Semn</TickLabelMajorFont>
     <TickLabelMajorTextBrush>Text Pensulă Majuscul Etichetă Semn</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Font Minuscul Etichetă Semn</TickLabelMinorFont>
@@ -4595,10 +4752,12 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Underline>Subliniază</Underline>
     <UndoLimit>Numărul paşi de anulare</UndoLimit>
     <Unit>Unitatea de măsură</Unit>
+    <UnitAlignment>Unitate Aliniere</UnitAlignment>
     <UnlimitedBreakable>Separabil nelimitat</UnlimitedBreakable>
     <UnlimitedHeight>Înăţime nelimitată</UnlimitedHeight>
     <UnlimitedWidth>Lăţime nelimitată</UnlimitedWidth>
     <UpperMarks>Marcări superioare</UpperMarks>
+    <URL>URL</URL>
     <UseAliases>Utilizează alias</UseAliases>
     <UseExternalReport>Utilizează raport extern</UseExternalReport>
     <UseParentStyles>Foloseşte stilurile părinte</UseParentStyles>
@@ -4607,6 +4766,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <UseSeriesColor>Utilizează serie culoare</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Utilizează stilul sumarului în coloana total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Utilizează stilul sumarului în rândul total</UseStyleOfSummaryInRowTotal>
+    <UseUserPicture>Folosire imagine utilizator</UseUserPicture>
     <UseValuesFromTheSpecifiedRange>Utilizare valori din intervalul specificat</UseValuesFromTheSpecifiedRange>
     <Value>Valoare</Value>
     <ValueClose>Valoare Închidere</ValueClose>
@@ -4632,9 +4792,20 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <VertAlignment>Aliniere verticală</VertAlignment>
     <VertSpacing>Distanţiere verticală</VertSpacing>
     <ViewMode>Modalitate de vizualizare</ViewMode>
+    <Visibility>Vizibilitate</Visibility>
     <Visible>Vizibil</Visible>
     <VisualStates>Stări vizuale</VisualStates>
     <Watermark>Text de fundal</Watermark>
+    <WatermarkStyle>Stil Watermark</WatermarkStyle>
+    <WeaveAngle>Unghi oscilaţie</WeaveAngle>
+    <WeaveDistance>Distanță oscilaţie</WeaveDistance>
+    <WeaveEnabled>Oscilaţie activată</WeaveEnabled>
+    <WeaveMajorColor>Culoare majoră oscilaţie</WeaveMajorColor>
+    <WeaveMajorIcon>Icon major oscilaţie</WeaveMajorIcon>
+    <WeaveMajorSize>Mărime majoră oscilaţie</WeaveMajorSize>
+    <WeaveMinorColor>Culoare minoră oscilaţie</WeaveMinorColor>
+    <WeaveMinorIcon>Icon minor oscilaţie</WeaveMinorIcon>
+    <WeaveMinorSize>Dimensiune minoră oscilaţie</WeaveMinorSize>
     <Weight>Lăţime</Weight>
     <WeightDataColumn>Lăţime Coloană</WeightDataColumn>
     <Weights>Pondere</Weights>
@@ -4808,6 +4979,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <ClickForMoreDetails>Clic pentru mai multe detalii</ClickForMoreDetails>
     <CollapseAll>Comprimă tot</CollapseAll>
     <Collection>Colecţie</Collection>
+    <CompilationAccess>Accesul la compilare</CompilationAccess>
     <CompilingReport>Compilare Raport</CompilingReport>
     <Complete>Complet</Complete>
     <Components>Componente</Components>
@@ -4905,6 +5077,8 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <StiGradientBrush>Degradé</StiGradientBrush>
     <StiHatchBrush>Haşurat</StiHatchBrush>
     <StiSolidBrush>Solid</StiSolidBrush>
+    <StoreUserFirstLastNameInReportAuthor>Stocare numele și prenumele utilizatorului în 'Autor raport'</StoreUserFirstLastNameInReportAuthor>
+    <StoreUserNameInReportAuthor>Stocare 'Nume utilizator' în 'Autor raport'</StoreUserNameInReportAuthor>
     <StyleBad>Incorect</StyleBad>
     <StyleGood>Corect</StyleGood>
     <StyleNeutral>Neutru</StyleNeutral>
@@ -5067,6 +5241,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <VerticalLine>Linie verticală</VerticalLine>
   </Shapes>
   <Signature>
+    <ClearSignature>Ștergere Semnătură</ClearSignature>
     <DigitalSignatureEmptyWatermark>Loc pentru semnătură digitală în PDF Viewer</DigitalSignatureEmptyWatermark>
     <FullName>Nume complet</FullName>
     <Initials>Inițiale</Initials>
@@ -5074,6 +5249,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <InsertText>Inserare Text</InsertText>
     <LoadSignature>Încărcare semnătură</LoadSignature>
     <NoSavedItems>Niciun articol salvat</NoSavedItems>
+    <PdfDigitalSignatureTitle>Selectați obiectele pe care doriți să le afișați în semnătura de pe fișierul PDF.</PdfDigitalSignatureTitle>
     <SaveSignature>Salvare semnătură</SaveSignature>
     <SignatureSavedSuccessfully>Semnătura salvată cu succes.</SignatureSavedSuccessfully>
     <UseBrush>Folosire pensulă</UseBrush>
@@ -5157,6 +5333,9 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <MoveBackward>Mută înapoi</MoveBackward>
     <MoveForward>Mută înainte</MoveForward>
     <Order>Ordine</Order>
+    <RibbonClassic>Ribon clasic</RibbonClassic>
+    <RibbonLayout>Aspect Ribon</RibbonLayout>
+    <RibbonSingleLine>Ribon o singură linie</RibbonSingleLine>
     <SendToBack>Trimite în spate</SendToBack>
     <Size>Mărime</Size>
     <StyleDesigner>Designer de stiluri</StyleDesigner>
