@@ -189,6 +189,7 @@
     <Gantt>Ганта</Gantt>
     <GridInterlaced>Чередование</GridInterlaced>
     <GridLines>Линии сетки</GridLines>
+    <Heatmap>Тепловая карта</Heatmap>
     <Histogram>Гистограмм</Histogram>
     <LabelAlignment>Выравнивание:</LabelAlignment>
     <LabelAlignmentHorizontal>Горизонтальное:</LabelAlignmentHorizontal>
@@ -379,6 +380,7 @@
     <ButtonRecover>Восстановить</ButtonRecover>
     <ButtonRenew>Обновление</ButtonRenew>
     <ButtonResendEmail>Отправить Email еще раз</ButtonResendEmail>
+    <ButtonResendInvitation>Пригласить повторно</ButtonResendInvitation>
     <ButtonResetPassword>Сбросить</ButtonResetPassword>
     <ButtonRun>Запустить</ButtonRun>
     <ButtonScheduler>Планировщик</ButtonScheduler>
@@ -455,6 +457,9 @@
     <LicenseInformation>Информация о лицензии</LicenseInformation>
     <LicenseKey>Лицензионный ключ</LicenseKey>
     <Login>Войти</Login>
+    <MyAccount>Мой аккаунт</MyAccount>
+    <MyCloud>Мое облако</MyCloud>
+    <MyPlan>Мой план</MyPlan>
     <MyTeam>Моя команда</MyTeam>
     <NofM>{0}: {1} из {2}</NofM>
     <Open>Открыть</Open>
@@ -673,6 +678,7 @@
     <StiTreeView>Дерево</StiTreeView>
     <StiTreeViewBox>Поле с деревом</StiTreeViewBox>
     <StiVerticalLinePrimitive>Вертикальная линия</StiVerticalLinePrimitive>
+    <StiWebContent>Web-контент</StiWebContent>
     <StiWinControl>Win компонент</StiWinControl>
     <StiZipCode>Почтовый индекс</StiZipCode>
   </Components>
@@ -898,9 +904,12 @@
     <StiPictureBoxControl>Рисунок</StiPictureBoxControl>
     <StiRadioButtonControl>Переключатель</StiRadioButtonControl>
     <StiRadioControl>Переключатель</StiRadioControl>
+    <StiRadioGroupControl>Radio группа</StiRadioGroupControl>
     <StiReportControl>Элемент управления</StiReportControl>
     <StiRichTextBoxControl>Rich текст</StiRichTextBoxControl>
+    <StiSliderControl>Слайдер</StiSliderControl>
     <StiTextBoxControl>Текстовое поле</StiTextBoxControl>
+    <StiToggleControl>Тогл</StiToggleControl>
     <StiTreeViewControl>Дерево</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1421,6 +1430,8 @@
     <EnableDataMonitor>Включить монитор данных</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Запрос SQL выполнен успешно</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Новое выражение</ExpressionNew>
+    <FunctionEdit>Изменение функции</FunctionEdit>
+    <FunctionNew>Новая функция</FunctionNew>
     <GetColumnsFromAssembly>Взять колонки из сборки</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Скрыть неподдерживаемые источники данных</HideUnsupportedDatabases>
     <ImportRelations>Импортировать связи</ImportRelations>
@@ -1524,6 +1535,7 @@
     <BlankReport>Пустой отчет</BlankReport>
     <BlankScreen>Пустой экран</BlankScreen>
     <Default>По умолчанию</Default>
+    <DefaultSaveFormat>Формат сохранения по умолчанию</DefaultSaveFormat>
     <DefaultScriptMode>Режим скрипта по умолчанию</DefaultScriptMode>
     <Drawing>Отображение</Drawing>
     <DrawMarkersWhenMoving>Рисовать маркеры компонентов при передвижении</DrawMarkersWhenMoving>
@@ -1966,6 +1978,7 @@
     <StiTreeViewBoxElement>Элемент фильтрации предназначенный для выбора значений с раскрывающимся списком в виде дерева.</StiTreeViewBoxElement>
     <StiTreeViewElement>Элемент фильтрации, предназначенный для отображения иерархии значений в виде дерева с элементами, которые могут разворачиваться и сворачиваться.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Геометрический примитив - вертикальная линия, используется для визуального оформления отчетов. Вертикальная линия может начинаться в области одного бэнда, а заканчиваться в области другого бэнда.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Этот элемент используется для вывода web-контента на панели индикаторов.</StiWebContentElement>
     <StiWinControl>Компонент предназначенный для отображения визуальных элементов управления .NET Framework.</StiWinControl>
     <StiZipCode>Компонент используется для вывода почтового индекса.</StiZipCode>
   </HelpComponents>
@@ -2025,6 +2038,8 @@
     <DockStyleNone>Не пристыковывать выделенные компоненты.</DockStyleNone>
     <DockStyleRight>Пристыковать выделенные компоненты к правому краю.</DockStyleRight>
     <DockStyleTop>Пристыковать выделенные компоненты к верхнему краю.</DockStyleTop>
+    <EventsAccess1>В этом документе используются события. Если документ получен из надежного источника, вы можете нажать кнопку «Открыть», чтобы получить к нему доступ.</EventsAccess1>
+    <EventsAccess2>Если вы не уверены в источнике документа, но все же хотите его просмотреть, вы можете нажать кнопку «Открыть в безопасном режиме». В этом случае сценарии событий не будут выполняться.</EventsAccess2>
     <FontGrow>Сделать размер шрифта текста больше.</FontGrow>
     <FontName>Шрифт текста.</FontName>
     <FontNameWatermark>Шрифт текста водяного знака.</FontNameWatermark>
@@ -2426,7 +2441,7 @@
     <ActivationMaxActivationsReached>Вы достигли максимального количества активаций лицензии. Пожалуйста, свяжитесь с нашим отделом продаж по sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationMaxActivationsReached1>Вы можете управлять зарегистрированными компьютерами при помощи </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft аккаунта.</ActivationMaxActivationsReached2>
-    <ActivationMaxComputersReached>Вы уже зарегистрировали максимальное количество компьютеров, доступных для вашей подписки.</ActivationMaxComputersReached>
+    <ActivationMaxComputersReached>Вы уже зарегистрировали максимальное количество компьютеров, допустимое в рамках вашего плана подписки.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Сервер активации сейчас недоступен! Пожалуйста, попробуйте активировать лицензию позднее.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вы не можете активировать эту версию Stimulsoft Server, т.к. Ваша Программа Подписки истекла! Пожалуйста, войдите в Ваш аккаунт на нашем сайте и проверьте, какую версию Stimulsoft Server Вы можете установить и активировать.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Во время активации лицензии произошла ошибка. Пожалуйста, попробуйте активировать лицензию позднее.</ActivationSomeTroublesOccurred>
@@ -2459,12 +2474,14 @@
     <AuthPasswordIsTooLong>Пароль слишком длинный!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Пароль слишком короткий (требуется минимум 6 символов)!</AuthPasswordIsTooShort>
     <AuthPasswordNotSpecified>Пароль не указан!</AuthPasswordNotSpecified>
+    <AuthRequestsLimitIsExceeded>Лимит запросов превышен! Пожалуйста, свяжитесь с нашим отделом продаж по адресу sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Нельзя удалить эту роль, поскольку она используется пользователями!</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Роль с указанным именем "{0}" уже существует!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Роль с указанным именем "{0}" это системная роль!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>На адрес электронной почты "{0}" отправлено сообщение с дальнейшими инструкциями!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Токен не верен!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Вы вышли из системы!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Ваш сеанс завершен, поскольку обнаружен вход с другого устройства!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExist>Указанное имя пользователя уже используется!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Имя пользователя (Email) уже используется!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Использование данного почтового ящика невозможно!</AuthUserNameEmailIsBlocked>
@@ -2499,7 +2516,7 @@
     <ItemCantBeMovedToSpecifiedPlace>Элемент не может быть перемещен в указанное место!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Элемент не поддерживает "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key и ToKey равны!</KeyAndToKeyAreEqual>
-    <MaximumComputers>Максимум компьютеров</MaximumComputers>
+    <MaximumComputers>Достигнут лимит подписки!</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Внимание! Вы хотите добавить файл, но его размер превышает максимально-допустимый размер. Все равно добавить этот файл (обработка отчета может замедлиться)?</MessageMaximumFileSizeExceeded>
     <NewDesignerAvailable>Stimulsoft Designer {0} доступен.</NewDesignerAvailable>
     <NewProduct>К Вашей подписке добавлен новый продукт!</NewProduct>
@@ -2512,6 +2529,7 @@
     <NotificationItemDelete>Элементы удаляются.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Удаление элементов завершено успешно.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Требуется  установить дополнительный компонент</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Установите среду выполнения WebView2 для правильного запуска элемента web-контента.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Для корректной работы Blockly редактора, необходимо установить среду выполнения WebView2.</NotificationItemInstallWebView>
     <NotificationItemRestore>Элементы восстанавливаются.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Восстановление элементов завершено успешно.</NotificationItemRestoreComplete>
@@ -4031,6 +4049,7 @@
     <Filters>Фильтры</Filters>
     <First>Первая</First>
     <FirstTabOffset>Позиция первого символа</FirstTabOffset>
+    <FixedHeight>Фиксированная высота</FixedHeight>
     <FixedWidth>Фиксированная ширина</FixedWidth>
     <Flat>Плоский</Flat>
     <FlatMode>Плоский режим</FlatMode>
@@ -4127,6 +4146,7 @@
     <HotColumnHeaderBackColor>Цвет фона заголовка колонки при наведении</HotColumnHeaderBackColor>
     <HotForeColor>Цвет текста при наведении</HotForeColor>
     <HotGlyphColor>Цвет символа при наведении</HotGlyphColor>
+    <HotHeaderBackColor>Цвет фона заголовка при наведении</HotHeaderBackColor>
     <HotHeaderColor>Цвет заголовка при наведении</HotHeaderColor>
     <HotkeyPrefix>Префикс горячей клавиши</HotkeyPrefix>
     <HotRowHeaderBackColor>Цвет фона заголовка строки при наведении</HotRowHeaderBackColor>
@@ -4365,6 +4385,7 @@
     <OnePointZoom>Одноточечный масштаб</OnePointZoom>
     <OnHover>При наведении</OnHover>
     <OnlyText>Только текст</OnlyText>
+    <OnSelect>При выборе</OnSelect>
     <Opacity>Непрозрачность</Opacity>
     <OpenValues>Значения открытия</OpenValues>
     <Operation>Операция</Operation>
@@ -4383,6 +4404,7 @@
     <PaperSourceOfFirstPage>Источник бумаги для первой страницы</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Источник бумаги для остальных страниц</PaperSourceOfOtherPages>
     <Parameter>Параметр</Parameter>
+    <ParameterAlignment>Выравнивание параметров</ParameterAlignment>
     <Parameters>Параметры</Parameters>
     <ParametersDateFormat>Формат даты параметров</ParametersDateFormat>
     <ParametersOrientation>Расположение параметров</ParametersOrientation>
@@ -4638,8 +4660,8 @@
     <StripBrush>Кисть полосы</StripBrush>
     <Strips>Полосы</Strips>
     <Stroke>Зачеркнутый</Stroke>
-    <StructuredAppendPosition>Structured Append Position</StructuredAppendPosition>
-    <StructuredAppendTotal>StructuredAppendTotal</StructuredAppendTotal>
+    <StructuredAppendPosition>Структурированное добавление позиции</StructuredAppendPosition>
+    <StructuredAppendTotal>Структурированное добавление итога</StructuredAppendTotal>
     <Style>Стиль</Style>
     <StyleColors>Цвета стиля</StyleColors>
     <Styles>Стили</Styles>
@@ -4682,6 +4704,7 @@
     <TextFormat>Формат</TextFormat>
     <TextOnly>Только текст</TextOnly>
     <TextOptions>Параметры текста</TextOptions>
+    <TextPlacement>Размещение текста</TextPlacement>
     <TextQuality>Качество текста</TextQuality>
     <TextRightToLeft>Текст справа налево</TextRightToLeft>
     <TextShowBehind>Показывать текст позади</TextShowBehind>
@@ -4690,7 +4713,7 @@
     <TickLabelMajorTextBrush>Кисть подписи основной метки</TickLabelMajorTextBrush>
     <TickLabelMinorFont>Шрифт подписи вспомогательной метки</TickLabelMinorFont>
     <TickLabelMinorTextBrush>Кисть подписи вспомогательной метки</TickLabelMinorTextBrush>
-    <TickMarkMajorBorder>Кисть границы подписи основной метки </TickMarkMajorBorder>
+    <TickMarkMajorBorder>Кисть границы подписи основной метки</TickMarkMajorBorder>
     <TickMarkMajorBorderWidth>Толщина границы маркера главной метки</TickMarkMajorBorderWidth>
     <TickMarkMajorBrush>Кисть маркера главной метки</TickMarkMajorBrush>
     <TickMarkMinorBorder>Граница маркера вспомогательной метки</TickMarkMinorBorder>
@@ -4750,6 +4773,7 @@
     <UseExternalReport>Использовать внешний отчет</UseExternalReport>
     <UseParentStyles>Исп. стили владельца</UseParentStyles>
     <UseRangeColor>Использовать цветовую гамму</UseRangeColor>
+    <UserBingKey>Пользовательский ключ Bing</UserBingKey>
     <UseRectangularSymbols>Использовать прямоугольные символы</UseRectangularSymbols>
     <UseSeriesColor>Использовать цвета рядов</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Использовать стиль итога в итоге колонки</UseStyleOfSummaryInColumnTotal>
@@ -4982,6 +5006,7 @@
     <Enhancements>Улучшения</Enhancements>
     <EnterDataManually>Введите данные вручную</EnterDataManually>
     <Errors>Ошибки</Errors>
+    <EventsAccess>Доступ к событиям</EventsAccess>
     <EventsTab>События</EventsTab>
     <ExpandAll>Развернуть все</ExpandAll>
     <FilterAnd>И</FilterAnd>
@@ -5076,6 +5101,7 @@
     <VisualChecked>Отмеченный</VisualChecked>
     <VisualDefault>По умолчанию</VisualDefault>
     <VisualDisabled>Заблокированный</VisualDisabled>
+    <VisualFocused>В фокусе</VisualFocused>
     <VisualHover>Состояние наведения</VisualHover>
     <VisualPressed>Нажатый</VisualPressed>
     <Warnings>Предупреждения</Warnings>
@@ -5357,6 +5383,15 @@
     <TextEditor>Редактор текста</TextEditor>
     <title>Инструментарий</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Наименование аргумента</ArgumentName>
+    <ArgumentType>Тип аргумента</ArgumentType>
+    <CustomCategory>Пользовательская категория</CustomCategory>
+    <ReturnType>Тип возвращаемого значения</ReturnType>
+    <Script>Сценарий</Script>
+    <ScriptMode>Режим сценария</ScriptMode>
+    <Title>Пользовательская функция</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Вы уверены, что хотите закрыть это окно? Все загрузки будут отменены.</AllDownloadsWillCanceled>
     <Description>Мы отобрали для вас отчеты, которые по нашему мнению, лучше всего подоходят для быстрого старта.</Description>

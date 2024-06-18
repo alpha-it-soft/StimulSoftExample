@@ -191,6 +191,7 @@
     <Gantt>Punte</Gantt>
     <GridInterlaced>Încrucişate</GridInterlaced>
     <GridLines>Linii în grilă</GridLines>
+    <Heatmap>Hartă termografică</Heatmap>
     <Histogram>Histogramă</Histogram>
     <LabelAlignment>Aliniere:</LabelAlignment>
     <LabelAlignmentHorizontal>Orizontală:</LabelAlignmentHorizontal>
@@ -381,6 +382,7 @@
     <ButtonRecover>Recuperare</ButtonRecover>
     <ButtonRenew>Reînnoire</ButtonRenew>
     <ButtonResendEmail>Retrimitere E-mail</ButtonResendEmail>
+    <ButtonResendInvitation>Retrimite invitația</ButtonResendInvitation>
     <ButtonResetPassword>Resetează parola</ButtonResetPassword>
     <ButtonRun>Execuţie</ButtonRun>
     <ButtonScheduler>Planificator</ButtonScheduler>
@@ -456,6 +458,9 @@
     <LicenseInformation>Informații licență</LicenseInformation>
     <LicenseKey>Cheie de licență</LicenseKey>
     <Login>Autentificare</Login>
+    <MyAccount>Contul meu</MyAccount>
+    <MyCloud>Contul meu cloud</MyCloud>
+    <MyPlan>Planul meu</MyPlan>
     <MyTeam>Echipa mea</MyTeam>
     <NofM>{0}: {1} din {2}</NofM>
     <Open>Deschide</Open>
@@ -674,6 +679,7 @@
     <StiTreeView>Vedere Arborescentă</StiTreeView>
     <StiTreeViewBox>Control Vedere Arborescentă</StiTreeViewBox>
     <StiVerticalLinePrimitive>Linie verticală</StiVerticalLinePrimitive>
+    <StiWebContent>Conținut web</StiWebContent>
     <StiWinControl>Control Win</StiWinControl>
     <StiZipCode>Cod poştal</StiZipCode>
   </Components>
@@ -912,9 +918,12 @@
     <StiPictureBoxControl>Imagine</StiPictureBoxControl>
     <StiRadioButtonControl>Buton opţiuni</StiRadioButtonControl>
     <StiRadioControl>Radio</StiRadioControl>
+    <StiRadioGroupControl>Grup butoane radio</StiRadioGroupControl>
     <StiReportControl>Raport</StiReportControl>
     <StiRichTextBoxControl>Control tip Rich Text</StiRichTextBoxControl>
+    <StiSliderControl>Glisor</StiSliderControl>
     <StiTextBoxControl>Căsuţă text</StiTextBoxControl>
+    <StiToggleControl>Comutare</StiToggleControl>
     <StiTreeViewControl>Vizualizare arborescentă</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1435,6 +1444,8 @@
     <EnableDataMonitor>Activare monitorizare date</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Cererea SQL a fost executată cu succes</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Expresie nouă</ExpressionNew>
+    <FunctionEdit>Editare Funcție</FunctionEdit>
+    <FunctionNew>Funcție nouă</FunctionNew>
     <GetColumnsFromAssembly>Obţine coloane din assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Ascundeți sursele de date neacceptate</HideUnsupportedDatabases>
     <ImportRelations>Importă relaţii</ImportRelations>
@@ -1536,6 +1547,7 @@
     <BlankReport>Raport Gol</BlankReport>
     <BlankScreen>Ecran gol</BlankScreen>
     <Default>Predefinit</Default>
+    <DefaultSaveFormat>Format de salvare implicit</DefaultSaveFormat>
     <DefaultScriptMode>Mod Script implicit</DefaultScriptMode>
     <Drawing>Desenare</Drawing>
     <DrawMarkersWhenMoving>Desenează marcajele în timpul mutării</DrawMarkersWhenMoving>
@@ -1984,6 +1996,7 @@
     <StiTreeViewBoxElement>Elementul este utilizat pentru a selecta valori cu o listă derulantă ca arbore.</StiTreeViewBoxElement>
     <StiTreeViewElement>Reprezintă elementul utilizat pentru a arăta datele ierarhice ca arbore.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Această componentă este folosită pentru afişarea unei linii verticale.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Componenta permite adăugarea de conținut web la panoul de control.</StiWebContentElement>
     <StiWinControl>Această componentă permite afişarea controalelor vizuale din .NET Framework.</StiWinControl>
     <StiZipCode>Această componentă este folosită pentru afişarea codurilor poştale.</StiZipCode>
   </HelpComponents>
@@ -2043,6 +2056,8 @@
     <DockStyleNone>Eliberează componentele selectate.</DockStyleNone>
     <DockStyleRight>Reţine componentele selectate spre partea din dreapta.</DockStyleRight>
     <DockStyleTop>Reţine componentele selectate spre partea de sus.</DockStyleTop>
+    <EventsAccess1>Acest document folosește Evenimente. Dacă documentul provine dintr-o sursă de încredere, puteți face clic pe butonul "Deschide" pentru a-l accesa.</EventsAccess1>
+    <EventsAccess2>Dacă nu sunteți sigur de sursa documentului, dar doriți totuși să îl vizualizați, puteți face clic pe butonul "Deschide în modul sigur". În acest caz, evenimentele vor fi ignorate și nu vor fi executate.</EventsAccess2>
     <FontGrow>Creşte dimensiunea textului.</FontGrow>
     <FontName>Fontul textului.</FontName>
     <FontNameWatermark>Fontul textului de watermark.</FontNameWatermark>
@@ -2473,12 +2488,14 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <AuthPasswordIsNotSpecified>Parola nu este specificată!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>Parola este prea lungă!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Parola este prea scurtă(minim 6 caractere)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Limita cererii a fost depășită! Vă rugăm să contactați departamentul nostru de vânzări la sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Nu puteți șterge rolul, deoarece este folosit de către alți utilizatori.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Rolul denumit "{0}" există deja!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Rolul denumit "{0}" este un rol de sistem!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Un mesaj cu instrucțiuni suplimentare este trimis către "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token-ul nu este corect!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>V-ați deconectat!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Ați fost deconectat deoarece a fost detectată o conectare de pe alt dispozitiv!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Numele de utilizator (e-mail) este deja în uz!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Această adresă de e-mail nu poate fi utilizată!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Numele de utilizator (e-mail) nu este specificat!</AuthUserNameIsNotSpecified>
@@ -2521,6 +2538,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <NotificationItemDelete>Elementele se șterg.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Elementele s-au șters cu succes.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Este necesară o componentă suplimentară</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Vă rugăm să instalați WebView2 Runtime pentru a rula corect elementul de conținut web.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Vă rugăm să instalați WebView2 Runtime pentru a funcționa corect cu editorul Blockly.</NotificationItemInstallWebView>
     <NotificationItemRestore>Elementele se restaurează.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Elementele s-au restaurat cu succes.</NotificationItemRestoreComplete>
@@ -4042,6 +4060,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Filters>Filtre</Filters>
     <First>Primul</First>
     <FirstTabOffset>Distanţa primului Tab</FirstTabOffset>
+    <FixedHeight>Înălțime fixă</FixedHeight>
     <FixedWidth>Lăţime fixă</FixedWidth>
     <Flat>Plat</Flat>
     <FlatMode>Mod plat</FlatMode>
@@ -4138,6 +4157,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <HotColumnHeaderBackColor>Fundal Antet Coloană evidențiată</HotColumnHeaderBackColor>
     <HotForeColor>Culoare fața evidențiată </HotForeColor>
     <HotGlyphColor>Culoare Glyph evidențiat</HotGlyphColor>
+    <HotHeaderBackColor>Culoare fundal antet aprins</HotHeaderBackColor>
     <HotHeaderColor>Culoare Antet evidențiat</HotHeaderColor>
     <HotkeyPrefix>Prefix hotkey</HotkeyPrefix>
     <HotRowHeaderBackColor>Fundal Antet Rând evidențiat</HotRowHeaderBackColor>
@@ -4375,6 +4395,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <OnePointZoom>Zoom cu un punct</OnePointZoom>
     <OnHover>La Trecere peste</OnHover>
     <OnlyText>Doar text</OnlyText>
+    <OnSelect>La Selecție</OnSelect>
     <Opacity>Opacitate</Opacity>
     <OpenValues>Valori deschise</OpenValues>
     <Operation>Operaţie</Operation>
@@ -4395,6 +4416,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <PaperSourceOfOtherPages>Sursa hârtiei pentru celelalte pagini</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Sursa hârtiei pentru celelalte pagini</PaperSourceOtherPages>
     <Parameter>Parametru</Parameter>
+    <ParameterAlignment>Aliniere parametri</ParameterAlignment>
     <Parameters>Parametri</Parameters>
     <ParametersDateFormat>Parametri Format data</ParametersDateFormat>
     <ParametersOrientation>Parametri Orientare</ParametersOrientation>
@@ -4694,6 +4716,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TextFormat>Format text</TextFormat>
     <TextOnly>Doar text</TextOnly>
     <TextOptions>Opţiuni text</TextOptions>
+    <TextPlacement>Așezarea textului</TextPlacement>
     <TextQuality>Calitatea textului</TextQuality>
     <TextRightToLeft>Text de la dreapta la stânga</TextRightToLeft>
     <TextShowBehind>Afișare text în spate</TextShowBehind>
@@ -4762,6 +4785,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <UseExternalReport>Utilizează raport extern</UseExternalReport>
     <UseParentStyles>Foloseşte stilurile părinte</UseParentStyles>
     <UseRangeColor>Utilizare gamă culori</UseRangeColor>
+    <UserBingKey>Cheia Utilizator Bing </UserBingKey>
     <UseRectangularSymbols>Utilizează simboluri dreptunghiulare</UseRectangularSymbols>
     <UseSeriesColor>Utilizează serie culoare</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Utilizează stilul sumarului în coloana total</UseStyleOfSummaryInColumnTotal>
@@ -4994,6 +5018,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <Enhancements>Îmbunătățiri</Enhancements>
     <EnterDataManually>Introduceți datele manual</EnterDataManually>
     <Errors>Erori</Errors>
+    <EventsAccess>Acces la evenimente</EventsAccess>
     <EventsTab>Evenimente</EventsTab>
     <ExpandAll>Expandează tot</ExpandAll>
     <FilterAnd>Şi</FilterAnd>
@@ -5089,6 +5114,7 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <VisualChecked>Verificat</VisualChecked>
     <VisualDefault>Implicit</VisualDefault>
     <VisualDisabled>Dezactivat</VisualDisabled>
+    <VisualFocused>Focalizat</VisualFocused>
     <VisualHover>Trecut deasupra</VisualHover>
     <VisualPressed>Apăsat</VisualPressed>
     <Warnings>Avertizări</Warnings>
@@ -5370,6 +5396,15 @@ Acesta conține un link pentru a confirma înregistrarea. Pentru a finaliza înr
     <TextEditor>Editor de texte</TextEditor>
     <title>Caseta de unelte</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Nume argument</ArgumentName>
+    <ArgumentType>Tip argument</ArgumentType>
+    <CustomCategory>Categorie personalizată</CustomCategory>
+    <ReturnType>Tip returnat</ReturnType>
+    <Script>Script</Script>
+    <ScriptMode>Mod Script</ScriptMode>
+    <Title>Funcție utilizator</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Sigur doriți să închideți această fereastră? Toate descărcările vor fi anulate.</AllDownloadsWillCanceled>
     <Description>Am selectat pentru dvs. rapoarte care credem că sunt cele mai bune pentru un început rapid.</Description>

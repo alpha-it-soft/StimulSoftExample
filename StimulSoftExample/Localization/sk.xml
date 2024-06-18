@@ -189,6 +189,7 @@
     <Gantt>Ganttov diagram</Gantt>
     <GridInterlaced>Prekladane</GridInterlaced>
     <GridLines>Čiary mriežky</GridLines>
+    <Heatmap>Teplotná mapa</Heatmap>
     <Histogram>Histogram</Histogram>
     <LabelAlignment>Zarovnanie:</LabelAlignment>
     <LabelAlignmentHorizontal>Vodorovne:</LabelAlignmentHorizontal>
@@ -379,6 +380,7 @@
     <ButtonRecover>Obnoviť</ButtonRecover>
     <ButtonRenew>Obnoviť</ButtonRenew>
     <ButtonResendEmail>Znovu poslať e-mail</ButtonResendEmail>
+    <ButtonResendInvitation>Znova odoslať pozvánku</ButtonResendInvitation>
     <ButtonResetPassword>Zmeniť heslo</ButtonResetPassword>
     <ButtonRun>Spustiť</ButtonRun>
     <ButtonScheduler>Plánovač</ButtonScheduler>
@@ -454,6 +456,9 @@
     <LicenseInformation>Informácie o licencii</LicenseInformation>
     <LicenseKey>Licenčný kľúč</LicenseKey>
     <Login>Login</Login>
+    <MyAccount>Môj účet</MyAccount>
+    <MyCloud>Môj cloud</MyCloud>
+    <MyPlan>Môj plán</MyPlan>
     <MyTeam>Môj tím</MyTeam>
     <NofM>{0}: {1} z {2}</NofM>
     <Open>Otvoriť</Open>
@@ -672,6 +677,7 @@
     <StiTreeView>Strom</StiTreeView>
     <StiTreeViewBox>Pole na zobrazenie stromu</StiTreeViewBox>
     <StiVerticalLinePrimitive>Zvislá čiara</StiVerticalLinePrimitive>
+    <StiWebContent>Obsah webu</StiWebContent>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>PSČ</StiZipCode>
   </Components>
@@ -897,9 +903,12 @@
     <StiPictureBoxControl>Obrázok</StiPictureBoxControl>
     <StiRadioButtonControl>Prepínač</StiRadioButtonControl>
     <StiRadioControl>Rádio</StiRadioControl>
+    <StiRadioGroupControl>Skupina prepínačov</StiRadioGroupControl>
     <StiReportControl>Ovládací prvok zostavy</StiReportControl>
     <StiRichTextBoxControl>Rich text box</StiRichTextBoxControl>
+    <StiSliderControl>Posuvník</StiSliderControl>
     <StiTextBoxControl>Textové pole</StiTextBoxControl>
+    <StiToggleControl>Prepnúť</StiToggleControl>
     <StiTreeViewControl>Strom</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1420,6 +1429,8 @@
     <EnableDataMonitor>Povoliť sledovanie údajov</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL príkaz vykonaný úspešne</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Nový výraz</ExpressionNew>
+    <FunctionEdit>Upraviť funkciu</FunctionEdit>
+    <FunctionNew>Nová funkcia</FunctionNew>
     <GetColumnsFromAssembly>Daj stĺpce zo zostavenia</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Skryť nepodporované zdroje dát</HideUnsupportedDatabases>
     <ImportRelations>Importovať závislosti</ImportRelations>
@@ -1521,6 +1532,7 @@
     <BlankReport>Prázdna zostava</BlankReport>
     <BlankScreen>Prázdna obrazovka</BlankScreen>
     <Default>Východiskový</Default>
+    <DefaultSaveFormat>Predvolený formát ukladania</DefaultSaveFormat>
     <DefaultScriptMode>Predvolený skript mód</DefaultScriptMode>
     <Drawing>Vykresľovanie</Drawing>
     <DrawMarkersWhenMoving>Vykresliť obrysy pri přesouvání</DrawMarkersWhenMoving>
@@ -1963,6 +1975,7 @@
     <StiTreeViewBoxElement>Prvok sa používa na výber hodnôt s rozbaľovacím zoznamom ako strom.</StiTreeViewBoxElement>
     <StiTreeViewElement>Predstavuje prvok, ktorý sa používa na zobrazenie hierarchických údajov ako strom.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Tento prvok je použitý na výstup vertikálnych čiar.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Komponent umožňuje pridávať webový obsah do dashboardov.</StiWebContentElement>
     <StiWinControl>The prvok umožňuje zobraziť vizuálne prvoky z .NET frameworku.</StiWinControl>
     <StiZipCode>Tento prvok je použitý na výstup the PSČ (poštového smerovacieho čísla).</StiZipCode>
   </HelpComponents>
@@ -2022,6 +2035,8 @@
     <DockStyleNone>Zrušiť ukotvenie vybraných prvkov.</DockStyleNone>
     <DockStyleRight>Ukotviť vybrané prvky vpravo.</DockStyleRight>
     <DockStyleTop>Ukotviť vybrané prvky hore.</DockStyleTop>
+    <EventsAccess1>Tento dokument používa udalosti. Ak dokument pochádza z dôveryhodného zdroja, môžete ho otvoriť kliknutím na tlačidlo "Otvoriť".</EventsAccess1>
+    <EventsAccess2>Ak si nie ste istí zdrojom dokumentu, ale napriek tomu ho chcete zobraziť, môžete kliknúť na tlačidlo „Otvoriť v núdzovom režime“. V tomto prípade budú udalosti ignorované a nevykonané.</EventsAccess2>
     <FontGrow>Zväčšiť veľkosť textu.</FontGrow>
     <FontName>Font textu.</FontName>
     <FontNameWatermark>Font textu značky vodotlače.</FontNameWatermark>
@@ -2452,12 +2467,14 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <AuthPasswordIsNotSpecified>Heslo nie je zadané!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>Heslo je príliš dlhé!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Heslo je príliš krátke (minimálna dĺžka je 6 znakov)!</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>Limit žiadostí bol prekročený! Kontaktujte prosím naše obchodné oddelenie na sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Nie je možné zmazať túto rolu, pretože je používaná iným užívateľom.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Rola s menom "{0}" už existuje!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Rola s menom "{0}" je systémová rola!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>Správa s nasledujúcimi inštrukciami je odoslaná na "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token nie je správny!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Odhlásili ste sa!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Boli ste odhlásení, pretože bolo zistené prihlásenie z iného zariadenia!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>Užívateľ s daným menom (e-mail) je už existuje!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Táto e-mailová adresa nemôže byť použitá!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>Užívateľ s daným menom (e-mail) nie je zadaný!</AuthUserNameIsNotSpecified>
@@ -2500,6 +2517,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <NotificationItemDelete>Položky sú mazané.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Položky boli úspešne zmazané.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Vyžaduje sa dodatočný komponent</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Nainštalujte si modul WebView2 Runtime, aby sa prvok webového obsahu spúšťal správne.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Ak chcete správne pracovať s editorom Blockly, nainštalujte si modul WebView2 Runtime.</NotificationItemInstallWebView>
     <NotificationItemRestore>Položky sú obnovované.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Položky boli úspešne obnovené.</NotificationItemRestoreComplete>
@@ -4002,6 +4020,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Filters>Filtre</Filters>
     <First>Prvé</First>
     <FirstTabOffset>Osadenie prvého tabu</FirstTabOffset>
+    <FixedHeight>Pevná výška</FixedHeight>
     <FixedWidth>Pevná šírka</FixedWidth>
     <Flat>Plochý</Flat>
     <FlatMode>Plochý mód</FlatMode>
@@ -4098,6 +4117,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <HotColumnHeaderBackColor>Aktuálna farba pozadia hlavičky stĺpca</HotColumnHeaderBackColor>
     <HotForeColor>Aktuálna farba popredia</HotForeColor>
     <HotGlyphColor>Aktuálna farba piktogramu</HotGlyphColor>
+    <HotHeaderBackColor>Aktuálna farba pozadia</HotHeaderBackColor>
     <HotHeaderColor>Aktuálna farba hlavičky</HotHeaderColor>
     <HotkeyPrefix>Klávesová skratka</HotkeyPrefix>
     <HotRowHeaderBackColor>Aktuálna farba pozadia hlavičky riadku</HotRowHeaderBackColor>
@@ -4335,6 +4355,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <OnePointZoom>Jednobodové priblíženie</OnePointZoom>
     <OnHover>Pri pohybe</OnHover>
     <OnlyText>Len text</OnlyText>
+    <OnSelect>Na výber</OnSelect>
     <Opacity>Nepriehľadnosť</Opacity>
     <OpenValues>Počiatočné hodnoty</OpenValues>
     <Operation>Operácia</Operation>
@@ -4355,6 +4376,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <PaperSourceOfOtherPages>Zdroj papiera pre ostatné stránky</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Zdroj papiera ostatné stránky</PaperSourceOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Zarovnanie parametrov</ParameterAlignment>
     <Parameters>Parametre</Parameters>
     <ParametersDateFormat>Formát dátumu pre parametre</ParametersDateFormat>
     <ParametersOrientation>Orientácia parametrov</ParametersOrientation>
@@ -4653,6 +4675,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <TextFormat>Formát textu</TextFormat>
     <TextOnly>Len text</TextOnly>
     <TextOptions>Možnosti textu</TextOptions>
+    <TextPlacement>Umiestnenie textu</TextPlacement>
     <TextQuality>Kvalita textu</TextQuality>
     <TextRightToLeft>Text sprava doľava</TextRightToLeft>
     <TextShowBehind>Zobraziť text za</TextShowBehind>
@@ -4721,6 +4744,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <UseExternalReport>Použiť externú zostavu</UseExternalReport>
     <UseParentStyles>Používať rodičovské štýly</UseParentStyles>
     <UseRangeColor>Použiť farbu rozsahu</UseRangeColor>
+    <UserBingKey>Kľúč používateľa Bing</UserBingKey>
     <UseRectangularSymbols>Použiť pravouhlé symboly</UseRectangularSymbols>
     <UseSeriesColor>Použiť farbu radov</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Použiť štýl súčtov v stĺpcových súčtoch</UseStyleOfSummaryInColumnTotal>
@@ -4954,6 +4978,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <Enhancements>Rozšírenia</Enhancements>
     <EnterDataManually>Zadať dáta manuálne</EnterDataManually>
     <Errors>Chyby</Errors>
+    <EventsAccess>Prístup k udalostiam</EventsAccess>
     <EventsTab>Záložka udalostí</EventsTab>
     <ExpandAll>Rozbaliť všetko</ExpandAll>
     <FilterAnd>a</FilterAnd>
@@ -5049,6 +5074,7 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <VisualChecked>Zaškrtnuté</VisualChecked>
     <VisualDefault>Predvolené</VisualDefault>
     <VisualDisabled>Blokované</VisualDisabled>
+    <VisualFocused>Zamerané</VisualFocused>
     <VisualHover>Nestlačené</VisualHover>
     <VisualPressed>Stlačené</VisualPressed>
     <Warnings>Varovania</Warnings>
@@ -5331,6 +5357,15 @@ Obsahuje odkaz pre potvrdenie registrácie. Na dokončenie registrácie kliknite
     <TextEditor>Textový editor</TextEditor>
     <title>Sada nástrojov</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Názov argumentu</ArgumentName>
+    <ArgumentType>Typ argumentu</ArgumentType>
+    <CustomCategory>Vlastná kategória</CustomCategory>
+    <ReturnType>Návratový typ</ReturnType>
+    <Script>Skript</Script>
+    <ScriptMode>Režim skriptu</ScriptMode>
+    <Title>Užívateľská funkcia</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Naozaj chcete toto okno zavrieť? Všetky stiahnuté súbory budú zrušené.</AllDownloadsWillCanceled>
     <Description>Vybrali sme pre vás zostavy, ktoré považujeme za najlepšie pre rýchly štart.</Description>

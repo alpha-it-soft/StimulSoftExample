@@ -13,7 +13,7 @@
 <body>
     @Html.Stimulsoft().StiMvcViewer(new StiMvcViewerOptions()
 {
-        Actions =
+    Actions =
 {
         GetReport = "GetReport",
         ViewerEvent = "ViewerEvent",
@@ -39,7 +39,8 @@
         ImagesQuality = Stimulsoft.Report.Web.StiImagesQuality.High,
         BackgroundColor = System.Drawing.Color.White,
         PageBorderColor = System.Drawing.Color.Gray,
-        ShowPageShadow = true
+        ShowPageShadow = true,
+        ChartRenderType= Stimulsoft.Report.Web.StiChartRenderType.Vector
     },
 
 });

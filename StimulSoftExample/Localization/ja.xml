@@ -189,6 +189,7 @@
     <Gantt>ガント</Gantt>
     <GridInterlaced>インターレース</GridInterlaced>
     <GridLines>グリッド線</GridLines>
+    <Heatmap>ヒートマップ</Heatmap>
     <Histogram>ヒストグラム</Histogram>
     <LabelAlignment>アライメント：</LabelAlignment>
     <LabelAlignmentHorizontal>水平：</LabelAlignmentHorizontal>
@@ -379,6 +380,7 @@
     <ButtonRecover>回復します</ButtonRecover>
     <ButtonRenew>更新</ButtonRenew>
     <ButtonResendEmail>メールを再送</ButtonResendEmail>
+    <ButtonResendInvitation>招待状の再送</ButtonResendInvitation>
     <ButtonResetPassword>パスワードを再設定</ButtonResetPassword>
     <ButtonRun>走る</ButtonRun>
     <ButtonScheduler>スケジューラー</ButtonScheduler>
@@ -454,6 +456,9 @@
     <LicenseInformation>ライセンス情報</LicenseInformation>
     <LicenseKey>ライセンスキー</LicenseKey>
     <Login>ログイン</Login>
+    <MyAccount>マイアカウント</MyAccount>
+    <MyCloud>マイクラウド</MyCloud>
+    <MyPlan>マイプラン</MyPlan>
     <MyTeam>自分のチーム</MyTeam>
     <NofM>{0}：{2}の{1}</NofM>
     <Open>開いた</Open>
@@ -671,6 +676,7 @@
     <StiTreeView>ツリー表示</StiTreeView>
     <StiTreeViewBox>ツリービューボックス</StiTreeViewBox>
     <StiVerticalLinePrimitive>垂直線</StiVerticalLinePrimitive>
+    <StiWebContent>ウェブコンテンツ</StiWebContent>
     <StiWinControl>勝利のコントロール</StiWinControl>
     <StiZipCode>Zipコード</StiZipCode>
   </Components>
@@ -896,9 +902,12 @@
     <StiPictureBoxControl>ピクチャーボックス</StiPictureBoxControl>
     <StiRadioButtonControl>ラジオボタン</StiRadioButtonControl>
     <StiRadioControl>ラジオ</StiRadioControl>
+    <StiRadioGroupControl>ラジオグループ</StiRadioGroupControl>
     <StiReportControl>レポートコントロール</StiReportControl>
     <StiRichTextBoxControl>リッチテキストボックス</StiRichTextBoxControl>
+    <StiSliderControl>スライダー</StiSliderControl>
     <StiTextBoxControl>テキストボックス</StiTextBoxControl>
+    <StiToggleControl>トグル</StiToggleControl>
     <StiTreeViewControl>ツリー表示</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1418,6 +1427,8 @@
     <EnableDataMonitor>データモニターを有効にする</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL文を正常に実行しました</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>新規式</ExpressionNew>
+    <FunctionEdit>編集</FunctionEdit>
+    <FunctionNew>新規</FunctionNew>
     <GetColumnsFromAssembly>アセンブリから列を取得</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>サポートされていないデータソースを非表示にする</HideUnsupportedDatabases>
     <ImportRelations>リレーションをインポート</ImportRelations>
@@ -1519,6 +1530,7 @@
     <BlankReport>空白レポート</BlankReport>
     <BlankScreen>空白の画面</BlankScreen>
     <Default>デフォルト</Default>
+    <DefaultSaveFormat>デフォルト保存形式</DefaultSaveFormat>
     <DefaultScriptMode>デフォルトのスクリプトモード</DefaultScriptMode>
     <Drawing>お絵かき</Drawing>
     <DrawMarkersWhenMoving>移動時にマーカーを描く</DrawMarkersWhenMoving>
@@ -1959,6 +1971,7 @@
     <StiTreeViewBoxElement>コントロールは、ドロップダウンリストを使用して値をツリーとして選択するために使用されます。</StiTreeViewBoxElement>
     <StiTreeViewElement>階層データをツリーとして表示するために使用されるコントロールを表します。</StiTreeViewElement>
     <StiVerticalLinePrimitive>この部品は、垂直線を出力するために使用されます。</StiVerticalLinePrimitive>
+    <StiWebContentElement>このコンポーネントは、ダッシュボードにウェブコンテンツを追加することができます。</StiWebContentElement>
     <StiWinControl>この部品により、.NET Frameworkからのビジュアルコントロールを表示できます。</StiWinControl>
     <StiZipCode>この部品は、Zipコードを出力するために使用されます。</StiZipCode>
   </HelpComponents>
@@ -2018,6 +2031,8 @@
     <DockStyleNone>選択した部品の選択を解除します。</DockStyleNone>
     <DockStyleRight>選択した部品を右側にドッキングします。</DockStyleRight>
     <DockStyleTop>選択した部品を上面にドッキングします。</DockStyleTop>
+    <EventsAccess1>このドキュメントはイベントを使用しています。このドキュメントが信頼できるソースからのものである場合は、「開く」ボタンをクリックしてアクセスできます。</EventsAccess1>
+    <EventsAccess2>ドキュメントのソースが不明であっても表示したい場合は、「セーフモードで開く」ボタンをクリックできます。この場合、イベントは無視され、実行されません。</EventsAccess2>
     <FontGrow>テキストサイズを大きくします。</FontGrow>
     <FontName>テキストフォント。</FontName>
     <FontNameWatermark>ウォーターマークのテキストフォント。</FontNameWatermark>
@@ -2425,7 +2440,7 @@
     <ActivationUserNameOrPasswordIsWrong>あなたのユーザー名（電子メール）またはパスワードが間違っています！</ActivationUserNameOrPasswordIsWrong>
     <ActivationWrongAccountType>あなたのアカウントタイプはStimulsoft Serverを有効にすることができません！</ActivationWrongAccountType>
     <Alert>アラート</Alert>
-    <AuthAccountAlreadyExists>このユーザー名（Eメール）のアカウントはすでに存在します。0}アカウントと関連付けるには、Stimulsoftアカウントのパスワードを使用してください。</AuthAccountAlreadyExists>
+    <AuthAccountAlreadyExists>このユーザー名（Eメール）のアカウントはすでに存在します。{0}アカウントと関連付けるには、Stimulsoftアカウントのパスワードを使用してください。</AuthAccountAlreadyExists>
     <AuthAccountCantBeUsedNow>アカウントは今使用できません！</AuthAccountCantBeUsedNow>
     <AuthAccountIsNotActivated>アカウントはまだ有効になっていません！ 登録時にEメールに送られた指示に従ってください。</AuthAccountIsNotActivated>
     <AuthCantChangeRoleBecauseLastAdministratorUser>このワークスペースの最後の管理者ユーザーであるため、ユーザーロールは変更できません。</AuthCantChangeRoleBecauseLastAdministratorUser>
@@ -2444,12 +2459,14 @@
     <AuthPasswordIsNotSpecified>パスワードは指定されていません！</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>パスワードが長すぎる！</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>パスワードが短すぎます（最小文字数は6文字です）。</AuthPasswordIsTooShort>
+    <AuthRequestsLimitIsExceeded>リクエストの上限を超えました！弊社までご連絡ください！</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>ロールは他のユーザーによって使用されているため、削除できません。</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>指定された名前「{0}」のロールはすでに存在します。</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>指定された名前 "{0}"を持つロールはシステムロールです！</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>さらに詳しい指示があるメッセージが「{0}」に送信されます。</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>トークンが正しくありません！</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>あなたはログアウトしました！</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>他のデバイスからログインが検出されたため、ログアウトされました！</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>ユーザー名（Email）はすでに使用中です！</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>このメールアドレスは使用できません！</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>ユーザー名（電子メール）は指定されていません！</AuthUserNameIsNotSpecified>
@@ -2492,6 +2509,7 @@
     <NotificationItemDelete>アイテムが削除されています。</NotificationItemDelete>
     <NotificationItemDeleteComplete>項目は正常に削除されます。</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>追加コンポーネントが必要</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>WebView2 Runtimeをインストールして、ウェブコンテンツエレメントを正しく実行してください。</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Blocklyエディターと正しく連携するために、WebView2 Runtimeをインストールしてください。</NotificationItemInstallWebView>
     <NotificationItemRestore>アイテムはリストア中です。</NotificationItemRestore>
     <NotificationItemRestoreComplete>アイテムは正常に復元されます。</NotificationItemRestoreComplete>
@@ -3972,6 +3990,7 @@
     <Filters>フィルタ</Filters>
     <First>1番</First>
     <FirstTabOffset>最初のタブオフセット</FirstTabOffset>
+    <FixedHeight>固定高さ</FixedHeight>
     <FixedWidth>固定幅</FixedWidth>
     <Flat>フラット</Flat>
     <FlatMode>フラットモード</FlatMode>
@@ -4068,6 +4087,7 @@
     <HotColumnHeaderBackColor>ホットカラムヘッダ背景色</HotColumnHeaderBackColor>
     <HotForeColor>ホット前景色</HotForeColor>
     <HotGlyphColor>ホットグリフ色</HotGlyphColor>
+    <HotHeaderBackColor>ホットヘッダーバックカラー</HotHeaderBackColor>
     <HotHeaderColor>ホットヘッダ色</HotHeaderColor>
     <HotkeyPrefix>ホットキープレフィックス</HotkeyPrefix>
     <HotRowHeaderBackColor>ホット行ヘッダ背景色</HotRowHeaderBackColor>
@@ -4304,6 +4324,7 @@
     <OnePointZoom>ワンポイント・ズーム</OnePointZoom>
     <OnHover>ホバー時</OnHover>
     <OnlyText>テキストのみ</OnlyText>
+    <OnSelect>オン・セレクト</OnSelect>
     <Opacity>不透明度</Opacity>
     <OpenValues>オープンな価値</OpenValues>
     <Operation>操作</Operation>
@@ -4322,6 +4343,7 @@
     <PaperSourceOfFirstPage>最初のページの用紙ソース</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>他のページの給紙元</PaperSourceOfOtherPages>
     <Parameter>パラメータ</Parameter>
+    <ParameterAlignment>パラメーター・アライメント</ParameterAlignment>
     <Parameters>パラメーター</Parameters>
     <ParametersDateFormat>パラメータ日付形式</ParametersDateFormat>
     <ParametersOrientation>パラメータの方向</ParametersOrientation>
@@ -4619,6 +4641,7 @@
     <TextFormat>テキスト形式</TextFormat>
     <TextOnly>テキストのみ</TextOnly>
     <TextOptions>テキストオプション</TextOptions>
+    <TextPlacement>テキスト配置</TextPlacement>
     <TextQuality>テキスト品質</TextQuality>
     <TextRightToLeft>テキスト 右から左へ</TextRightToLeft>
     <TextShowBehind>背後のテキスト表示</TextShowBehind>
@@ -4687,6 +4710,7 @@
     <UseExternalReport>外部レポートを使用</UseExternalReport>
     <UseParentStyles>親スタイルを使用</UseParentStyles>
     <UseRangeColor>範囲カラーを使用</UseRangeColor>
+    <UserBingKey>ユーザー・ビング・キー</UserBingKey>
     <UseRectangularSymbols>長方形の記号を使用</UseRectangularSymbols>
     <UseSeriesColor>シリーズカラーを使用</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>列の合計に集計のスタイルを使用</UseStyleOfSummaryInColumnTotal>
@@ -4918,6 +4942,7 @@
     <Enhancements>強化</Enhancements>
     <EnterDataManually>手動でデータを入力する</EnterDataManually>
     <Errors>エラー</Errors>
+    <EventsAccess>イベントアクセス</EventsAccess>
     <EventsTab>[イベント]タブ</EventsTab>
     <ExpandAll>すべて展開</ExpandAll>
     <FilterAnd>そして</FilterAnd>
@@ -5012,6 +5037,7 @@
     <VisualChecked>チェック済み</VisualChecked>
     <VisualDefault>デフォルト</VisualDefault>
     <VisualDisabled>無効</VisualDisabled>
+    <VisualFocused>フォーカス</VisualFocused>
     <VisualHover>ホバー</VisualHover>
     <VisualHovered>ホバーされた</VisualHovered>
     <VisualPressed>押された</VisualPressed>
@@ -5294,6 +5320,15 @@
     <TextEditor>テキストエディタ</TextEditor>
     <title>ツールボックス</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>引数名</ArgumentName>
+    <ArgumentType>引数タイプ</ArgumentType>
+    <CustomCategory>カスタム・カテゴリー</CustomCategory>
+    <ReturnType>リターン・タイプ</ReturnType>
+    <Script>スクリプト</Script>
+    <ScriptMode>スクリプトモード</ScriptMode>
+    <Title>ユーザー機能</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>このウィンドウを閉じてもよろしいですか？すべてのダウンロードはキャンセルされます。</AllDownloadsWillCanceled>
     <Description>素早くスタートするために最善と考えられるレポートを選択しました。</Description>

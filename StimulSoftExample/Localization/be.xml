@@ -189,6 +189,7 @@
     <Gantt>Ганта</Gantt>
     <GridInterlaced>Чаргаванне</GridInterlaced>
     <GridLines>Лініі сеткі</GridLines>
+    <Heatmap>Цеплавая карта</Heatmap>
     <Histogram>Гістаграм</Histogram>
     <LabelAlignment>Выраўнаванне:</LabelAlignment>
     <LabelAlignmentHorizontal>Гарызантальнае:</LabelAlignmentHorizontal>
@@ -379,6 +380,7 @@
     <ButtonRecover>Аднавіць</ButtonRecover>
     <ButtonRenew>Абнаўленне</ButtonRenew>
     <ButtonResendEmail>Адправіць Email яшчэ раз</ButtonResendEmail>
+    <ButtonResendInvitation>Запрасіць паўторнае</ButtonResendInvitation>
     <ButtonResetPassword>Скінуць</ButtonResetPassword>
     <ButtonRun>Выканаць</ButtonRun>
     <ButtonScheduler>Планавальнік</ButtonScheduler>
@@ -455,6 +457,9 @@
     <LicenseInformation>Інфармацыя пра ліцэнзію</LicenseInformation>
     <LicenseKey>Ліцэнзійны ключ</LicenseKey>
     <Login>Увайсці</Login>
+    <MyAccount>Мой акаўнт</MyAccount>
+    <MyCloud>Маё воблака</MyCloud>
+    <MyPlan>Мой план</MyPlan>
     <MyTeam>Мая каманда</MyTeam>
     <NofM>{0}: {1} з {2}</NofM>
     <Open>Адкрыць</Open>
@@ -674,6 +679,7 @@
     <StiTreeView>Дрэва</StiTreeView>
     <StiTreeViewBox>Поле з дрэвам</StiTreeViewBox>
     <StiVerticalLinePrimitive>Вертыкальная лінія</StiVerticalLinePrimitive>
+    <StiWebContent>Web-кантэнт</StiWebContent>
     <StiWinControl>Win кампанент</StiWinControl>
     <StiZipCode>Паштовы індэкс</StiZipCode>
   </Components>
@@ -901,9 +907,12 @@
     <StiPictureBoxControl>Малюнак</StiPictureBoxControl>
     <StiRadioButtonControl>Перамыкач</StiRadioButtonControl>
     <StiRadioControl>Перамыкач</StiRadioControl>
+    <StiRadioGroupControl>Radio група</StiRadioGroupControl>
     <StiReportControl>Элемент кіравання</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
+    <StiSliderControl>Слайдар</StiSliderControl>
     <StiTextBoxControl>Тэкставае поле</StiTextBoxControl>
+    <StiToggleControl>Тогл</StiToggleControl>
     <StiTreeViewControl>Дрэва</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1424,6 +1433,8 @@
     <EnableDataMonitor>Уключыць манітор дадзеных</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>Запыт SQL выкананы паспяхова</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>Новы выраз</ExpressionNew>
+    <FunctionEdit>Змена функцыі</FunctionEdit>
+    <FunctionNew>Новая функцыя</FunctionNew>
     <GetColumnsFromAssembly>Узяць калонкі з зборкі</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Схаваць непадтрыманыя крыніцы дадзеных</HideUnsupportedDatabases>
     <ImportRelations>Імпартаваць сувязі</ImportRelations>
@@ -1527,6 +1538,7 @@
     <BlankReport>Пустая справаздача</BlankReport>
     <BlankScreen>Пусты экран</BlankScreen>
     <Default>Па змаўчанні</Default>
+    <DefaultSaveFormat>Фармат захавання па змаўчанні</DefaultSaveFormat>
     <DefaultScriptMode>Рэжым скрыпту па змаўчанні</DefaultScriptMode>
     <Drawing>Адлюстраванне</Drawing>
     <DrawMarkersWhenMoving>Маляваць маркеры кампанентаў пры перамяшчэнні</DrawMarkersWhenMoving>
@@ -1970,6 +1982,7 @@
     <StiTreeViewBoxElement>Элемент кіравання выкарыстоўваецца для выбару значэнняў з які расчыняецца спісам у выглядзе дрэва.</StiTreeViewBoxElement>
     <StiTreeViewElement>Уяўляе элемент кіравання, які выкарыстоўваецца для адлюстравання іерархічных дадзеных у выглядзе дрэва.</StiTreeViewElement>
     <StiVerticalLinePrimitive>Геаметрычны прымiтыў - вертыкальная лінія, выкарыстоўваецца для візуальнага афармлення справаздач. Вертыкальная лінія можа пачынацца з аднаго бэнда, а скончвацца ў іншым бэндзе.</StiVerticalLinePrimitive>
+    <StiWebContentElement>Гэты элемент выкарыстоўваецца для высновы web-кантэнту на панэлі індыкатараў.</StiWebContentElement>
     <StiWinControl>Кампанент прызначаны для адлюстравання візуальных элементаў кіравання. NET Framework.</StiWinControl>
     <StiZipCode>Кампанент выкарыстоўваецца для вываду паштовага індэкса.</StiZipCode>
   </HelpComponents>
@@ -2029,6 +2042,8 @@
     <DockStyleNone>Не дакiраваць вылучаныя кампаненты.</DockStyleNone>
     <DockStyleRight>Дакiраваць вылучаныя кампаненты па правым краю.</DockStyleRight>
     <DockStyleTop>Дакiраваць вылучаныя кампаненты па верхнім краю.</DockStyleTop>
+    <EventsAccess1>У гэтым дакуменце выкарыстоўваюцца падзеі. Калі дакумент атрыманы з надзейнай крыніцы, вы можаце націснуць кнопку «Адкрыць», каб атрымаць да яго доступ.</EventsAccess1>
+    <EventsAccess2>Калі вы не ўпэўнены ў крыніцы дакумента, але ўсё ж хочаце яго прагледзець, вы можаце націснуць кнопку «Адкрыць у бяспечным рэжыме». У гэтым выпадку сцэнары падзей не будуць выконвацца.</EventsAccess2>
     <FontGrow>Зрабіць памер шрыфта тэксту больш.</FontGrow>
     <FontName>Шрыфт тэксту.</FontName>
     <FontNameWatermark>Шрыфт тэксту вадзянога знака.</FontNameWatermark>
@@ -2437,7 +2452,7 @@
     <ActivationMaxActivationsReached>Вы дасягнулі максімальнай колькасці актывацый ліцэнзіі. Калі ласка, звяжыцеся з нашым аддзелам продажаў па sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationMaxActivationsReached1>Вы можаце кіраваць зарэгістраванымі кампутарамі пры дапамозе </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft акаўнта.</ActivationMaxActivationsReached2>
-    <ActivationMaxComputersReached>Вы ўжо зарэгістравалі максімальную колькасць кампутараў, даступных для вашай падпіскі.</ActivationMaxComputersReached>
+    <ActivationMaxComputersReached>Вы ўжо зарэгістравалі максімальную колькасць кампутараў, што дазваляецца ў рамках вашага плана падпіскі.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Сервер актывацыі зараз недаступны! Калі ласка, паспрабуйце актываваць ліцэнзію пазней.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>Вы не можаце актываваць гэтую версію Stimulsoft Server, бо Ваша Праграма Падпіскі мінула! Калі ласка, ўвайдзіце ў Ваш рахунак на нашым сайце і праверце, якую версію Stimulsoft Server Вы можаце ўсталяваць і актываваць.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>Падчас актывацыі ліцэнзіі адбылася памылка. Калі ласка, паспрабуйце актываваць ліцэнзію пазней.</ActivationSomeTroublesOccurred>
@@ -2470,12 +2485,14 @@
     <AuthPasswordIsTooLong>Пароль задоўгі!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>Пароль занадта кароткі (патрабуецца мінімум 6 знакаў)!</AuthPasswordIsTooShort>
     <AuthPasswordNotSpecified>Пароль не пазначаны!</AuthPasswordNotSpecified>
+    <AuthRequestsLimitIsExceeded>Ліміт запытаў перавышаны! Калі ласка, звяжыцеся з нашым аддзелам продажаў па адрасеsales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>Нельга выдаліць гэтую ролю, паколькі яна выкарыстоўваецца карыстальнікамі!</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>Роля з паказаным імем "{0}" ужо існуе!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>Роля з паказаным імем "{0}" гэта сістэмная роля! </AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>На адрас электроннай пошты "{0}" адпраўлена паведамленне з далейшымі інструкцыямі!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Токен не дакладны!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>Вы выйшлі з сістэмы!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>Ваш сеанс завершаны бо выяўлены ўваход з іншай прылады!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExist>Паказанае імя карыстальніка ўжо выкарыстоўваецца!</AuthUserNameAlreadyExist>
     <AuthUserNameAlreadyExists>Імя карыстальніка (Email) ужо выкарыстоўваецца!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>Выкарыстанне дадзенай паштовай скрынкі немагчыма!</AuthUserNameEmailIsBlocked>
@@ -2510,7 +2527,7 @@
     <ItemCantBeMovedToSpecifiedPlace>Элемент не можа быць перамешчаны ў паказаны месца!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>Элемент не падтрымлівае "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>Key і ToKey роўныя!</KeyAndToKeyAreEqual>
-    <MaximumComputers>Максімум кампутараў</MaximumComputers>
+    <MaximumComputers>Дасягнуты ліміт падпіскі!</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Увага! Вы хочаце дадаць файл, але яго памер перавышае максімальна-дапушчальны памер. Усё адно дадаць гэты файл (апрацоўка справаздачы можа замарудзіцца)?</MessageMaximumFileSizeExceeded>
     <NewDesignerAvailable>Stimulsoft Designer {0} даступны.</NewDesignerAvailable>
     <NewProduct>Да Вашай падпіскі дададзены новы прадукт!</NewProduct>
@@ -2523,6 +2540,7 @@
     <NotificationItemDelete>Элементы выдаляюцца.</NotificationItemDelete>
     <NotificationItemDeleteComplete>Выдаленне элементаў завершана паспяхова. </NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Патрабуецца ўсталяваць дадатковы кампанент</NotificationItemExtraComponentRequired>
+    <NotificationItemInstallToRunWebView>Усталюйце асяроддзе выканання WebView2 для карэктнага запуску элемента web-кантэнту.</NotificationItemInstallToRunWebView>
     <NotificationItemInstallWebView>Для карэктнай працы Blockly рэдактара, патрэбна ўсталяваць асяроддзе выканання WebView2.</NotificationItemInstallWebView>
     <NotificationItemRestore>Элементы аднаўляюцца.</NotificationItemRestore>
     <NotificationItemRestoreComplete>Аднаўленне элементаў завершана паспяхова.</NotificationItemRestoreComplete>
@@ -4063,6 +4081,7 @@
     <Filters>Фільтры</Filters>
     <First>Першая</First>
     <FirstTabOffset>Пазіцыя першага знака</FirstTabOffset>
+    <FixedHeight>Фіксаваная вышыня</FixedHeight>
     <FixedWidth>Фіксаваная шырыня</FixedWidth>
     <Flat>Плоскі</Flat>
     <FlatMode>Плоскі рэжым</FlatMode>
@@ -4159,6 +4178,7 @@
     <HotColumnHeaderBackColor>Колер фону загалоўка калонкі пры навядзенні</HotColumnHeaderBackColor>
     <HotForeColor>Колер тэксту пры навядзенні</HotForeColor>
     <HotGlyphColor>Колер сімвала пры навядзенні</HotGlyphColor>
+    <HotHeaderBackColor>Колер фону загалоўка пры навядзенні</HotHeaderBackColor>
     <HotHeaderColor>Колер загалоўка пры навядзенні</HotHeaderColor>
     <HotkeyPrefix>Прэфікс гарачай клавішы</HotkeyPrefix>
     <HotRowHeaderBackColor>Колер фону загалоўка радка пры навядзенні</HotRowHeaderBackColor>
@@ -4398,6 +4418,7 @@
     <OnePointZoom>Аднапунктавы маштаб</OnePointZoom>
     <OnHover>Пры навядзенні</OnHover>
     <OnlyText>Толькі тэкст</OnlyText>
+    <OnSelect>Пры выбары</OnSelect>
     <Opacity>Непразрыстасць</Opacity>
     <OpenValues>Ззначэння адкрыцця</OpenValues>
     <Operation>Аперацыя</Operation>
@@ -4418,6 +4439,7 @@
     <PaperSourceOfOtherPages>Крынiца паперы для астатнiх старонак</PaperSourceOfOtherPages>
     <PaperSourceOtherPages>Крыніца паперы для іншых старонак</PaperSourceOtherPages>
     <Parameter>Параметр</Parameter>
+    <ParameterAlignment>Выраўнанне параметраў</ParameterAlignment>
     <Parameters>Параметры</Parameters>
     <ParametersDateFormat>Фармат даты параметраў</ParametersDateFormat>
     <ParametersOrientation>Размяшчэнне параметраў</ParametersOrientation>
@@ -4718,6 +4740,7 @@
     <TextFormat>Фармат</TextFormat>
     <TextOnly>Толькі тэкст</TextOnly>
     <TextOptions>Параметры тэксту</TextOptions>
+    <TextPlacement>Месцаванне тэксту</TextPlacement>
     <TextQuality>Якасць тэксту</TextQuality>
     <TextRightToLeft>Тэкст справа налева</TextRightToLeft>
     <TextShowBehind>Паказваць тэкст ззаду</TextShowBehind>
@@ -4786,6 +4809,7 @@
     <UseExternalReport>Выкарыстаць навакольную справаздачу</UseExternalReport>
     <UseParentStyles>Выкар. стылі уладара</UseParentStyles>
     <UseRangeColor>Выкарыстоўваць дыяпазон колеру</UseRangeColor>
+    <UserBingKey>Карыстацкі ключ Bing</UserBingKey>
     <UseRectangularSymbols>Выкарыстоўваць прамавугольныя сімвалы</UseRectangularSymbols>
     <UseSeriesColor>Выкарыстаць колеры шэрагаў</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Выкарыстоўваць стыль падрахунку ў падрахунку калонкі</UseStyleOfSummaryInColumnTotal>
@@ -5018,6 +5042,7 @@
     <Enhancements>Паляпшэнні</Enhancements>
     <EnterDataManually>Увядзіце дадзеныя ручна</EnterDataManually>
     <Errors>Памылкі</Errors>
+    <EventsAccess>Доступ да падзей</EventsAccess>
     <EventsTab>Падзеі</EventsTab>
     <ExpandAll>Разгарнуць усё</ExpandAll>
     <FilterAnd>І</FilterAnd>
@@ -5112,6 +5137,7 @@
     <VisualChecked>Адзначаны</VisualChecked>
     <VisualDefault>Па змаўчанні</VisualDefault>
     <VisualDisabled>Заблакаваны</VisualDisabled>
+    <VisualFocused>У фокусе</VisualFocused>
     <VisualHover>Стан навядзення</VisualHover>
     <VisualPressed>Націснуты</VisualPressed>
     <Warnings>Папярэджанні</Warnings>
@@ -5394,6 +5420,15 @@
     <TextEditor>Рэдактар тэксту</TextEditor>
     <title>Інструментар</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Назва аргумента</ArgumentName>
+    <ArgumentType>Тып аргумента</ArgumentType>
+    <CustomCategory>Карыстацкая катэгорыя</CustomCategory>
+    <ReturnType>Тып вяртанага значэння</ReturnType>
+    <Script>Сцэнар</Script>
+    <ScriptMode>Рэжым сцэнара</ScriptMode>
+    <Title>Карыстацкая функцыя</Title>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Вы ўпэўнены, што хочаце зачыніць гэта акно? Усе загрузкі будуць скасаваны.</AllDownloadsWillCanceled>
     <Description>Мы адабралі для вас справаздачы, якія на нашу думку, лепш за ўсё падыходзяць для хуткага старту.</Description>

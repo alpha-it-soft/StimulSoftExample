@@ -189,6 +189,7 @@
     <Gantt>Gantt</Gantt>
     <GridInterlaced>Interlaced</GridInterlaced>
     <GridLines>Grid Lines</GridLines>
+    <Heatmap>Heatmap</Heatmap>
     <Histogram>Histogram</Histogram>
     <LabelAlignment>Alignment:</LabelAlignment>
     <LabelAlignmentHorizontal>Horizontal:</LabelAlignmentHorizontal>
@@ -455,6 +456,9 @@
     <LicenseInformation>License Information</LicenseInformation>
     <LicenseKey>License Key</LicenseKey>
     <Login>Log in</Login>
+    <MyAccount>My Account</MyAccount>
+    <MyCloud>My Cloud</MyCloud>
+    <MyPlan>My Plan</MyPlan>
     <MyTeam>My Team</MyTeam>
     <NofM>{0}: {1} of {2}</NofM>
     <Open>Open</Open>
@@ -672,9 +676,9 @@
     <StiTreeView>Tree View</StiTreeView>
     <StiTreeViewBox>Tree View Box</StiTreeViewBox>
     <StiVerticalLinePrimitive>Vertical Line</StiVerticalLinePrimitive>
+    <StiWebContent>Web Content</StiWebContent>
     <StiWinControl>Win Control</StiWinControl>
     <StiZipCode>ZIP Code</StiZipCode>
-	<StiWebContent>Web Content</StiWebContent>
   </Components>
   <CustomMapWindow>
     <CheckedAll>Checked All</CheckedAll>
@@ -897,12 +901,12 @@
     <StiPanelControl>Panel</StiPanelControl>
     <StiPictureBoxControl>Picture Box</StiPictureBoxControl>
     <StiRadioButtonControl>Radio Button</StiRadioButtonControl>
-    <StiRadioControl>Radio</StiRadioControl>
+    <StiRadioGroupControl>Radio Group</StiRadioGroupControl>
     <StiReportControl>Report Control</StiReportControl>
     <StiRichTextBoxControl>Rich Text Box</StiRichTextBoxControl>
-	<StiSliderControl>Slider</StiSliderControl>
+    <StiSliderControl>Slider</StiSliderControl>
     <StiTextBoxControl>Text Box</StiTextBoxControl>
-	<StiToggleControl>Toggle</StiToggleControl>
+    <StiToggleControl>Toggle</StiToggleControl>
     <StiTreeViewControl>Tree View</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -1422,6 +1426,8 @@
     <EnableDataMonitor>Enable Data Monitor</EnableDataMonitor>
     <ExecutedSQLStatementSuccessfully>SQL statement executed successfully</ExecutedSQLStatementSuccessfully>
     <ExpressionNew>New Expression</ExpressionNew>
+    <FunctionEdit>Edit Function</FunctionEdit>
+    <FunctionNew>New Function</FunctionNew>
     <GetColumnsFromAssembly>Get Columns from Assembly</GetColumnsFromAssembly>
     <HideUnsupportedDatabases>Hide Unsupported Data Sources</HideUnsupportedDatabases>
     <ImportRelations>Import Relations</ImportRelations>
@@ -1439,7 +1445,6 @@
     <RelationEdit>Edit Relation</RelationEdit>
     <RelationNew>New Relation</RelationNew>
     <ResourceEdit>Edit Resource</ResourceEdit>
-	<FunctionEdit>Edit Function</FunctionEdit>
     <ResourceNew>New Resource</ResourceNew>
     <RetrieveColumns>Retrieve Columns</RetrieveColumns>
     <RetrieveColumnsAllowRun>Allow Run StoredProc</RetrieveColumnsAllowRun>
@@ -1459,7 +1464,6 @@
     <ValueNew>New Value</ValueNew>
     <VariableEdit>Edit Variable</VariableEdit>
     <VariableNew>New Variable</VariableNew>
-	<FunctionNew>New Function</FunctionNew>
     <ViewData>View Data</ViewData>
     <ViewQuery>View Query</ViewQuery>
   </FormDictionaryDesigner>
@@ -1525,6 +1529,7 @@
     <BlankReport>Blank Report</BlankReport>
     <BlankScreen>Blank Screen</BlankScreen>
     <Default>Default</Default>
+    <DefaultSaveFormat>Default Save Format</DefaultSaveFormat>
     <DefaultScriptMode>Default Script Mode</DefaultScriptMode>
     <Drawing>Drawing</Drawing>
     <DrawMarkersWhenMoving>Draw Markers When Moving</DrawMarkersWhenMoving>
@@ -1710,6 +1715,7 @@
     <SqlExpressionsForm>SQL Expressions</SqlExpressionsForm>
     <SubReportPageSelectForm>Select Sub-Report Page</SubReportPageSelectForm>
     <TextEditorForm>Text Editor</TextEditorForm>
+	<CodeEditorForm>Code Editor</CodeEditorForm>
     <ViewDataForm>View Data</ViewDataForm>
     <ViewerApplication>Report Viewer</ViewerApplication>
   </FormTitles>
@@ -1965,7 +1971,7 @@
     <StiTreeViewBoxElement>The element is used to select values with a drop-down list as a tree.</StiTreeViewBoxElement>
     <StiTreeViewElement>Represents the element that is used to show the hierarchical data as a tree.</StiTreeViewElement>
     <StiVerticalLinePrimitive>This component is used to output vertical lines.</StiVerticalLinePrimitive>
-	<StiWebContentElement>The component allows to add web-content to dashboards.</StiWebContentElement>
+    <StiWebContentElement>The component allows to add web-content to dashboards.</StiWebContentElement>
     <StiWinControl>The component allows showing visual controls from .NET Framework.</StiWinControl>
     <StiZipCode>This component is used to output the ZIP code.</StiZipCode>
   </HelpComponents>
@@ -2011,6 +2017,7 @@
     <CompilationAccessDeny>Deny opening any document that uses the compilation process. A special window will be displayed.</CompilationAccessDeny>
     <CompilationAccessForceInterpretation>Documents with compilation will be opened without any prompt but will be automatically converted to interpretation mode, which does not use the compilation process.</CompilationAccessForceInterpretation>
     <CompilationModeEnabling>You are switching to the compilation mode. This mode allows to run different code and sometimes it could be harmful. Please, use this mode only if you understand all the risks and agree with them. Click the {0} button to proceed.</CompilationModeEnabling>
+	<NotPossibleEnableCompilationMode>It is impossible to enable compilation mode for the report. This is prohibited by the 'Compilation Access' option in the designer settings.</NotPossibleEnableCompilationMode>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
     <CopyStyle>Copy Style</CopyStyle>
     <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
@@ -2025,6 +2032,8 @@
     <DockStyleNone>Undock selected components.</DockStyleNone>
     <DockStyleRight>Dock selected components to the right side.</DockStyleRight>
     <DockStyleTop>Dock selected components to the top side.</DockStyleTop>
+    <EventsAccess1>This document uses Events. If the document is from a trusted source, you can click the "Open" button to access it.</EventsAccess1>
+    <EventsAccess2>If you're unsure about the document's source but still want to view it, you can click the "Open in safe mode" button. In this case, events will be ignored and not executed.</EventsAccess2>
     <FontGrow>Make the text size larger.</FontGrow>
     <FontName>The text font.</FontName>
     <FontNameWatermark>The watermark text font.</FontNameWatermark>
@@ -2289,7 +2298,6 @@
     <menuEditUndo>&amp;Undo</menuEditUndo>
     <menuEditUndoText>&amp;Undo {0}</menuEditUndoText>
     <menuEditVariableNew>New Variable...</menuEditVariableNew>
-	<menuEditFunctionNew>New Function...</menuEditFunctionNew>
     <menuEditViewData>View Data...</menuEditViewData>
     <menuEmbedAllDataToResources>Embed all data to resources</menuEmbedAllDataToResources>
     <menuFile>&amp;File</menuFile>
@@ -2423,7 +2431,7 @@
     <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
     <ActivationMaxActivationsReached1>You can manage the registered computers from your </ActivationMaxActivationsReached1>
     <ActivationMaxActivationsReached2>Stimulsoft Account.</ActivationMaxActivationsReached2>
-    <ActivationMaxComputersReached>You’ve already registered the maximum number of computers available for your subscription.</ActivationMaxComputersReached>
+    <ActivationMaxComputersReached>You have already registered the maximum number of computers allowed under your subscription plan.</ActivationMaxComputersReached>
     <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
     <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Server you can install and activate.</ActivationServerVersionNotAllowed>
     <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
@@ -2452,13 +2460,14 @@
     <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
     <AuthPasswordIsTooLong>The password is too long!</AuthPasswordIsTooLong>
     <AuthPasswordIsTooShort>The password is too short (a minimum length is 6 chars)!</AuthPasswordIsTooShort>
-	<AuthRequestsLimitIsExceeded>Request limit exceeded! Please contact our sales department at sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
+    <AuthRequestsLimitIsExceeded>Request limit exceeded! Please contact our sales department at sales@stimulsoft.com!</AuthRequestsLimitIsExceeded>
     <AuthRoleCantBeDeletedBecauseUsedByUsers>You cannot delete the role because it is used by other users.</AuthRoleCantBeDeletedBecauseUsedByUsers>
     <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
     <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
     <AuthSendMessageWithInstructions>A message with further instructions is sent to "{0}"!</AuthSendMessageWithInstructions>
     <AuthTokenIsNotCorrect>Token is not correct!</AuthTokenIsNotCorrect>
     <AuthUserHasLoggedOut>You have logged out!</AuthUserHasLoggedOut>
+    <AuthUserHasLoggedOutPrevDevice>You have been logged out because there was a login detected from another device!</AuthUserHasLoggedOutPrevDevice>
     <AuthUserNameAlreadyExists>The username (Email) is already in use!</AuthUserNameAlreadyExists>
     <AuthUserNameEmailIsBlocked>This Email address cannot be used!</AuthUserNameEmailIsBlocked>
     <AuthUserNameIsNotSpecified>The username (Email) is not specified!</AuthUserNameIsNotSpecified>
@@ -2488,7 +2497,7 @@
     <ItemCantBeMovedToSpecifiedPlace>The item cannot be moved to a specified place!</ItemCantBeMovedToSpecifiedPlace>
     <ItemDoesNotSupport>The item does not support "{0}"!</ItemDoesNotSupport>
     <KeyAndToKeyAreEqual>A Key and ToKey are equal!</KeyAndToKeyAreEqual>
-    <MaximumComputers>Maximum of Computers</MaximumComputers>
+    <MaximumComputers>Subscription limit reached!</MaximumComputers>
     <MessageMaximumFileSizeExceeded>Attention! The size of the file that you are trying to add exceeds the maximum-allowed size. Do you want to add this file anyway (report processing may slow down significantly)?</MessageMaximumFileSizeExceeded>
     <NewDesignerAvailable>Stimulsoft Designer {0} is available.</NewDesignerAvailable>
     <NewProduct>The new product is added to your subscription!</NewProduct>
@@ -2501,8 +2510,8 @@
     <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
     <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
     <NotificationItemExtraComponentRequired>Extra component required</NotificationItemExtraComponentRequired>
-    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemInstallToRunWebView>Please install the WebView2 Runtime to run Web Content element correctly.</NotificationItemInstallToRunWebView>
+    <NotificationItemInstallWebView>Please install the WebView2 Runtime to work with the Blockly editor correctly.</NotificationItemInstallWebView>
     <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
     <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
     <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
@@ -3981,6 +3990,7 @@
     <Filters>Filters</Filters>
     <First>First</First>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
+    <FixedHeight>Fixed Height</FixedHeight>
     <FixedWidth>Fixed Width</FixedWidth>
     <Flat>Flat</Flat>
     <FlatMode>Flat Mode</FlatMode>
@@ -4077,6 +4087,7 @@
     <HotColumnHeaderBackColor>Hot Column Header Back Color</HotColumnHeaderBackColor>
     <HotForeColor>Hot Fore Color</HotForeColor>
     <HotGlyphColor>Hot Glyph Color</HotGlyphColor>
+    <HotHeaderBackColor>Hot Header Back Color</HotHeaderBackColor>
     <HotHeaderColor>Hot Header Color</HotHeaderColor>
     <HotkeyPrefix>Hotkey Prefix</HotkeyPrefix>
     <HotRowHeaderBackColor>Hot Row Header Back Color</HotRowHeaderBackColor>
@@ -4313,6 +4324,7 @@
     <OnePointZoom>One Point Zoom</OnePointZoom>
     <OnHover>On Hover</OnHover>
     <OnlyText>Only Text</OnlyText>
+    <OnSelect>On Select</OnSelect>
     <Opacity>Opacity</Opacity>
     <OpenValues>Open Values</OpenValues>
     <Operation>Operation</Operation>
@@ -4331,11 +4343,11 @@
     <PaperSourceOfFirstPage>Paper Source of First Page</PaperSourceOfFirstPage>
     <PaperSourceOfOtherPages>Paper Source of Other Pages</PaperSourceOfOtherPages>
     <Parameter>Parameter</Parameter>
+    <ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <Parameters>Parameters</Parameters>
     <ParametersDateFormat>Parameters Date Format</ParametersDateFormat>
     <ParametersOrientation>Parameters Orientation</ParametersOrientation>
     <ParameterWidth>Parameter Width</ParameterWidth>
-	<ParameterAlignment>Parameter Alignment</ParameterAlignment>
     <ParentColumns>Parent Columns</ParentColumns>
     <ParentSource>Parent Data Source</ParentSource>
     <ParentValue>Parent Value</ParentValue>
@@ -4629,6 +4641,7 @@
     <TextFormat>Text Format</TextFormat>
     <TextOnly>Text Only</TextOnly>
     <TextOptions>Text Options</TextOptions>
+    <TextPlacement>Text Placement</TextPlacement>
     <TextQuality>Text Quality</TextQuality>
     <TextRightToLeft>Text Right to Left</TextRightToLeft>
     <TextShowBehind>Text Show Behind</TextShowBehind>
@@ -4697,6 +4710,7 @@
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
     <UseRangeColor>Use Range Color</UseRangeColor>
+    <UserBingKey>User Bing Key</UserBingKey>
     <UseRectangularSymbols>Use Rectangular Symbols</UseRectangularSymbols>
     <UseSeriesColor>Use Series Color</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
@@ -4928,6 +4942,7 @@
     <Enhancements>Enhancements</Enhancements>
     <EnterDataManually>Enter data manually</EnterDataManually>
     <Errors>Errors</Errors>
+    <EventsAccess>Events Access</EventsAccess>
     <EventsTab>Events Tab</EventsTab>
     <ExpandAll>Expand All</ExpandAll>
     <FilterAnd>And</FilterAnd>
@@ -4982,7 +4997,8 @@
     <NoNewVersions>There are no new versions available!</NoNewVersions>
     <NotAssigned>Not Assigned</NotAssigned>
     <Null>Null</Null>
-    <Obsoleted>Obsoleted</Obsoleted>
+	<IfEmpty>If {0} Is Empty</IfEmpty>
+	<Obsoleted>Obsoleted</Obsoleted>
     <Office2010Back>Back</Office2010Back>
     <PageNofM>Page {0} of {1}</PageNofM>
     <PreparingReport>Preparing Report</PreparingReport>
@@ -5022,9 +5038,9 @@
     <VisualChecked>Checked</VisualChecked>
     <VisualDefault>Default</VisualDefault>
     <VisualDisabled>Disabled</VisualDisabled>
+    <VisualFocused>Focused</VisualFocused>
     <VisualHover>Hover</VisualHover>
     <VisualPressed>Pressed</VisualPressed>
-	<VisualFocused>Focused</VisualFocused>
     <Warnings>Warnings</Warnings>
     <WhatsNewInVersion>What's New in {0}</WhatsNewInVersion>
     <When>when {0} {1}</When>
@@ -5301,6 +5317,17 @@
     <TextEditor>Text Editor</TextEditor>
     <title>Toolbox</title>
   </Toolbox>
+  <UserFunctionEditor>
+    <ArgumentName>Argument Name</ArgumentName>
+    <ArgumentType>Argument Type</ArgumentType>
+    <CustomCategory>Custom Category</CustomCategory>
+    <ReturnType>Return Type</ReturnType>
+    <Script>Script</Script>
+    <ScriptMode>Script Mode</ScriptMode>
+    <Title>User Function</Title>
+	<EditCode>Edit Code</EditCode>
+	<EditWithBlockly>Edit with blockly</EditWithBlockly>
+  </UserFunctionEditor>
   <WelcomeScreen>
     <AllDownloadsWillCanceled>Are you sure you want to close this window? All downloads will be canceled.</AllDownloadsWillCanceled>
     <Description>We have selected for you reports that we think are the best for a quick start.</Description>
